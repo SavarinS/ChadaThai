@@ -29,11 +29,23 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
+		<section class="before-menu">
+			<div class="item1">
+				<p>Följa oss på Facebook: Chadathaimarket </p>
+			</div>
+			<div class="item2">
 
+				<p>Öppettid mån-fre kl.10-18 lör kl.10-14</p>
+				<p>Tel. 0730 79 42 31</p>
+			</div>
+			
+		</section>
+
+<!-- Navbar begins here -->
 		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
 
 		<?php if ( 'container' == $container ) : ?>
-			<div class="container">
+			<div class="main-menu container">
 		<?php endif; ?>
 
 					<!-- Your site title as branding in the menu -->
@@ -49,10 +61,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<?php endif; ?>
 
-
+					<!-- show logo and site title -->
 					<?php } else {
 						the_custom_logo();
-					} ?><!-- end custom logo -->
+					} ?>
+					<div class="site-title">
+						<p><?php echo get_bloginfo( 'name' ); ?></p>
+					</div>
+					
+					<!-- end custom logo -->
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>

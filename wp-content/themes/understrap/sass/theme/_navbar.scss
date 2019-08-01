@@ -1,0 +1,38 @@
+.main-menu {
+    display: flex;
+    flex-direction: column;
+
+    .site-title {
+        margin-top: 1em;
+    }
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:$brown;
+}
+
+
+// Toggle bar
+.navbar-toggler {
+    background-color: $yellow;
+}
+
+//Dropdown menu
+#navbarNavDropdown {
+    margin-top:1em;
+}
+
+//list item in menu
+#main-menu {
+    li{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    li:hover {
+        background-color: $yellow;
+        border-radius: 30px;
+        transform: scale(1.2);
+    }
+}

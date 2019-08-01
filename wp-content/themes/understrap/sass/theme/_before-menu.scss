@@ -1,0 +1,28 @@
+.before-menu {
+    background-color: $yellow;
+
+    p{
+        color: $brown;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 768px) {
+    .before-menu {
+        display:flex;
+        justify-content: space-between;
+
+        .item1{
+            p{
+                margin:1em;
+            }
+        }
+
+        .item2{
+            display: flex;
+            p {
+                margin:1em;
+            }
+        }
+    }
+}
