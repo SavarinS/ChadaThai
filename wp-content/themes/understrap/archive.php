@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<main class="site-main" id="main">
 
 				<?php if ( have_posts() ) : ?>
-
+<h1>Archive.php</h1>
 					<header class="page-header">
 						<?php
 						the_archive_title( '<h1 class="page-title">', '</h1>' );

@@ -1,5 +1,6 @@
 .before-menu {
     background-color: $yellow;
+    padding: 1em;
 
     p{
         color: $brown;
@@ -11,6 +12,7 @@
     .before-menu {
         display:flex;
         justify-content: space-between;
+        padding: 0;
 
         .item1{
             p{

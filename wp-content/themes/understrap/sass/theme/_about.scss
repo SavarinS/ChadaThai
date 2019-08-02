@@ -1,0 +1,30 @@
+.container-about{
+    background-color: $yellow;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .about-info{
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-about {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding:1.5em;
+
+        .about-info {
+            width: 40vw;
+        }
+
+        .about-img{
+            width:40vw;
+        }
+    }
+}

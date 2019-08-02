@@ -27,22 +27,33 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<p>Sök produkter eller recepter</p>
 					<!-- Search form -->
-					<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+					
+						<?php get_search_form(); ?>
+					
+					
+					
 
 				
 </section>
 
-<div class="wrapper" id="index-wrapper">
+<!-- <div class="wrapper3" id="index-wrapper"> -->
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
-
-		
+	<!-- <div class="<?php //echo esc_attr( $container ); ?>" id="content" tabindex="-1"> -->
 
 
 			<main class="site-main" id="main">
 
 				<?php if ( have_posts() ) : ?>
+				<?php /* Start the Loop */ ?>
 
+					<?php while ( have_posts() ) : the_post(); ?>
+						<!-- show front page -->
+						<?php
+						get_template_part( 'loop-templates/content', 'front-page' );
+						?>
+
+					<?php endwhile; ?>
+				
 				<?php else : ?>
 
 					<?php get_template_part( 'loop-templates/content', 'none' ); ?>
@@ -53,8 +64,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			
 
-	</div><!-- #content -->
+	<!-- </div> -->
+	<!-- #content -->
 
-</div><!-- #index-wrapper -->
+<!-- </div> -->
+<!-- #index-wrapper -->
 
 <?php get_footer(); ?>
