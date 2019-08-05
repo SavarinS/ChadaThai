@@ -1,14 +1,50 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 a {
-    color: $brown;
+    color: $black;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: $yellow;
 }
 
 p{
-    color: $brown;
+    color: $black;
     font-family: $body;
+    letter-spacing: 2px;
+    line-height: 200%;
 }
 
 h1, h2, h3,h4,h5 {
     font-family: $heading;
+    letter-spacing: 2px;
+    line-height: 200%;
 }
 
+button {
+    background-color: $yellow;
+    border: 1px solid $yellow;
+    border-radius: 15px;
+    padding: 0.4em;
+    p {
+        color: $primary;
+        margin: 0em;
+    }
+    
+}
+
+// * {
+//     border: 1px solid red;
+// }
+
+#wrapper-footer {
+    padding: 0;
+}
+
+#wrapper-footer-full {
+    background-color: $yellow;
+}
+
+.product-item {
+    background-color: darkkhaki;
+}

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/rice.jpg);
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/rice1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 60vh;
@@ -10,13 +10,20 @@
     justify-content: center;
     align-items: center;
 
-    p {
+    h4 {
         color: $primary;
-        //font-size: 1.2em;
+        padding: 1em 0 1em 0;
     }
 
+    h5 {
+        color: $primary;
+        padding: 0 0 1em 0;
+    }
+
+
     #searchform {
-        width: 80vw;
+        //width: 80vw;
+        margin-top:1em;
     }
 
 }

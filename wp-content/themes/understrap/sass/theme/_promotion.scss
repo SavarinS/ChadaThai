@@ -1,0 +1,20 @@
+.container-promotion {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/promotion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .promotion-title {
+        h4 {
+            color: $primary;
+        }
+    }
+
+    h5, p {
+        color: $primary;
+    }
+}

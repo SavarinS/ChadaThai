@@ -1,0 +1,17 @@
+.container-new-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+
+    .new-product {
+        margin-bottom: 1em;
+
+        .new-product-title {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+    }
+}

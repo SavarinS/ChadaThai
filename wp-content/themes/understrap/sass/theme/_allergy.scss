@@ -1,0 +1,12 @@
+.allergy-info {
+    background-color: $black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    text-align: center;
+
+    h4, button{
+        color:$primary;
+    }
+}

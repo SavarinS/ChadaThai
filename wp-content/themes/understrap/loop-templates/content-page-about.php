@@ -11,14 +11,20 @@
 			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 				<div class="about-img">
 					<?php 
-					the_post_thumbnail('medium');
+					the_post_thumbnail('large');
 					?>
 				</div>
 				<div class="about-info">
-					<p class="store-title"><?php the_title(); ?></p>
+					<h5 class="store-title"><?php the_title(); ?></h5>
 					<div class="entry-content">
 						<?php the_content(); ?>
-					</div><!-- .entry-content -->
+					</div>
+					<!-- .entry-content -->
+					<button>
+						<p>Mer om oss</p>
+					</button>
+
+
 				</div>
 		
 					

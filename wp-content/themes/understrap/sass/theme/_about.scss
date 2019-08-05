@@ -1,15 +1,17 @@
 .container-about{
-    background-color: $yellow;
-    padding: 1em;
+    //padding: 1em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 
     .about-info{
-        margin-top: 1em;
+        padding: 1em;
+        .store-title {
+            font-weight: bold;
+        }
     }
 }
 
@@ -17,14 +19,14 @@
     .container-about {
         flex-direction: row;
         justify-content: space-evenly;
-        padding:1.5em;
+        //padding:1.5em;
 
         .about-info {
-            width: 40vw;
+            //width: 40vw;
         }
 
         .about-img{
-            width:40vw;
+            //width:40vw;
         }
     }
 }

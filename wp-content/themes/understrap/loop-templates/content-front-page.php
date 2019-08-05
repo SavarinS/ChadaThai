@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	<?php //echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
 	
 			<!-- show template about page -->
@@ -21,6 +21,31 @@ defined( 'ABSPATH' ) || exit;
 			<!-- show template popular products -->
 			<?php
 			get_template_part( 'loop-templates/content', 'page-popular' );
+			?>
+
+			<!-- show template news and promotion -->
+			<?php
+			get_template_part( 'loop-templates/content', 'page-promotion' );
+			?>
+
+			<!-- show template address -->
+			<?php
+			get_template_part( 'loop-templates/content', 'page-location' );
+			?>
+
+			<!-- show template new products -->
+			<?php
+			get_template_part( 'loop-templates/content', 'page-new' );
+			?>
+
+			<!-- show template food allergy -->
+			<?php
+			get_template_part( 'loop-templates/content', 'page-allergy' );
+			?>
+
+			<!-- show template products -->
+			<?php
+			get_template_part( 'loop-templates/content', 'page-products' );
 			?>
 
 		<?php

@@ -1,0 +1,36 @@
+.container-popular-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+
+    .main-new-products{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .product {
+            margin-bottom: 1em;
+
+            .product_title {
+                margin-top: 0.5em;
+                margin-bottom: 0.5em;
+            }
+
+    }
+}
+
+}
+
+@media (min-width: 768px) {
+    .container-popular-products {
+        .main-new-products {
+            flex-direction: row;
+
+        }
+    }
+}

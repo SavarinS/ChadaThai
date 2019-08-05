@@ -66,7 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_custom_logo();
 					} ?>
 					<div class="site-title">
-						<p><?php echo get_bloginfo( 'name' ); ?></p>
+						<h4><?php echo get_bloginfo( 'name' ); ?></h4>
 					</div>
 					
 					<!-- end custom logo -->

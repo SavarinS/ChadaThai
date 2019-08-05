@@ -1,0 +1,66 @@
+.container-products {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .product-item {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 20vh;
+    }
+}
+
+.desserts {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/dessert.jpg);
+}
+
+.frozen_food {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/frozen-food.jpg);
+}
+
+.noodles {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/noodles.jpg);
+}
+
+.vegetables {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/vegetables.jpg);
+}
+
+.sauce{
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/sauce.jpg);
+}
+.beverage {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/beverage.jpg);
+}
+
+.kitchen {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/bowl.jpg);
+}
+
+.coconutsmilk{
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/coconuts-milk.jpg);
+}
+
+.rice {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/rice-bowl.jpg);
+}
+
+.snacks {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/chips.jpg);
+}
+
+.spices {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/spices.jpg);
+}
+.instant_noodle {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/instant-noodles.jpg);
+}
+.fruits {
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/fruits.jpg);
+}
+
+.other{
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/other.jpg);
+}

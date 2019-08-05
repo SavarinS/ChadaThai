@@ -21,42 +21,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php if ( is_front_page() && is_home() ) : ?>
 	<?php get_template_part( 'global-templates/hero' ); ?>
-<?php endif; ?>
 
-<section class="hero-image">
-
-					<p>Sök produkter eller recepter</p>
-					<!-- Search form -->
-					
-						<?php get_search_form(); ?>
-					
-					
-					
-
-				
-</section>
+	<section class="hero-image">
+		<div class="page-title">
+		<h4>Thai market i Eslöv</h4>
+		</div>
+		<h5>Sök produkter eller recepter</h5>
+		<!-- Search form -->
+		<?php get_search_form(); ?>						
+	</section>
 
 <!-- <div class="wrapper3" id="index-wrapper"> -->
-
 	<!-- <div class="<?php //echo esc_attr( $container ); ?>" id="content" tabindex="-1"> -->
+	<main class="site-main" id="main">
 
+	<!-- show front page -->
+		<?php get_template_part( 'loop-templates/content', 'front-page' );?>
 
-			<main class="site-main" id="main">
+<?php else : ?>
 
-				<?php if ( have_posts() ) : ?>
-				<?php /* Start the Loop */ ?>
-
-					<?php while ( have_posts() ) : the_post(); ?>
-						<!-- show front page -->
-						<?php
-						get_template_part( 'loop-templates/content', 'front-page' );
-						?>
-
-					<?php endwhile; ?>
-				
-				<?php else : ?>
-
-					<?php get_template_part( 'loop-templates/content', 'none' ); ?>
+		<?php get_template_part( 'loop-templates/content', 'none' ); ?>
 
 				<?php endif; ?>
 
