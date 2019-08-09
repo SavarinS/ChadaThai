@@ -48,6 +48,11 @@ defined( 'ABSPATH' ) || exit;
 			get_template_part( 'loop-templates/content', 'page-products' );
 			?>
 
+			<!-- show template recipes -->
+			<?php
+			get_template_part( 'loop-templates/content', 'page-recipes' );
+			?>
+
 		<?php
 		wp_link_pages(
 			array(

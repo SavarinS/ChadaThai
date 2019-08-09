@@ -34,5 +34,17 @@ foreach ( $understrap_includes as $file ) {
 	require_once $filepath;
 }
 
+/**
+ * Filter add API Key to custom field Google Maps
+ */
 
+function my_acf_google_map_api( $api ){
+	
+	$api['key'] = 'AIzaSyCb4CCv1u6pD8vhEEQQEeH7OFXNVkYleYw';
+	
+	return $api;
+	
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
 

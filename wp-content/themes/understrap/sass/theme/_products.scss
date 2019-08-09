@@ -10,6 +10,12 @@
         background-size: cover;
         min-height: 20vh;
     }
+
+    .item {
+        border: solid 1px $black;
+        margin-bottom: 1em;
+        
+    }
 }
 
 .desserts {
@@ -63,4 +69,59 @@
 
 .other{
     background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/other.jpg);
+}
+
+.popular_products{
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/popular_products.jpg);
+}
+
+.new_products{
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/new_products.jpg);
+}
+
+// Products page
+.hero-image-products {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/products.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    margin-top:1.5em;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+        color: $primary;
+        padding: 1em 0 1em 0;
+    }
+
+    h5 {
+        color: $primary;
+        padding: 0 0 1em 0;
+    }
+
+
+    #searchform {
+        //width: 80vw;
+        margin-top:1em;
+    }
+
+}
+
+//search button
+.btn-primary{
+    background-color: $yellow;
+    color: $brown;
+    border-color: $yellow;
+}
+
+@media (min-width: 768px) {
+    .hero-image-products{
+        
+        #searchform  {
+            width: 60vw;
+        }
+    }
 }

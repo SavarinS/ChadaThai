@@ -18,6 +18,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCb4CCv1u6pD8vhEEQQEeH7OFXNVkYleYw"></script>
+ 
 	<?php wp_head(); ?>
 </head>
 
@@ -66,7 +68,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_custom_logo();
 					} ?>
 					<div class="site-title">
-						<h4><?php echo get_bloginfo( 'name' ); ?></h4>
+						<a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><h4><?php bloginfo( 'name' ); ?></h4></a>
 					</div>
 					
 					<!-- end custom logo -->

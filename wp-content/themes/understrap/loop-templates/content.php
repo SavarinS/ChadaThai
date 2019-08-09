@@ -19,7 +19,7 @@ defined( 'ABSPATH' ) || exit;
 			'</a></h2>'
 		);
 		?>
-
+<h1>content.php</h1>
 		<?php if ( 'post' == get_post_type() ) : ?>
 
 			<div class="entry-meta">
