@@ -5,79 +5,26 @@
     justify-content: center;
     align-items: center;
 
-    .product-item {
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 20vh;
+    .items-product {
+        width:100vw;
+        padding: 0 1em;
+
+        a {
+            font-weight: bold;
+            color: $brown;
+
+            .product-item {
+                margin: 0.8em 0;
+                padding: 0.5em;
+                background-color: $yellow;
+                border-radius: 10px;
+                
+            }
+        }
     }
-
-    .item {
-        border: solid 1px $black;
-        margin-bottom: 1em;
-        
-    }
+   
 }
 
-.desserts {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/dessert.jpg);
-}
-
-.frozen_food {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/frozen-food.jpg);
-}
-
-.noodles {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/noodles.jpg);
-}
-
-.vegetables {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/vegetables.jpg);
-}
-
-.sauce{
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/sauce.jpg);
-}
-.beverage {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/beverage.jpg);
-}
-
-.kitchen {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/bowl.jpg);
-}
-
-.coconutsmilk{
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/coconuts-milk.jpg);
-}
-
-.rice {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/rice-bowl.jpg);
-}
-
-.snacks {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/chips.jpg);
-}
-
-.spices {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/spices.jpg);
-}
-.instant_noodle {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/instant-noodles.jpg);
-}
-.fruits {
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/fruits.jpg);
-}
-
-.other{
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/other.jpg);
-}
-
-.popular_products{
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/popular_products.jpg);
-}
-
-.new_products{
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/new_products.jpg);
-}
 
 // Products page
 .hero-image-products {
@@ -87,10 +34,11 @@
     background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/products.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 60vh;
+    //min-height: 60vh;
     margin-top:1.5em;
     justify-content: center;
     align-items: center;
+    padding: 3em 0;
 
     h4 {
         color: $primary;
@@ -117,11 +65,129 @@
     border-color: $yellow;
 }
 
+//Style taxonomy.php
+#archive-wrapper{
+    margin: 1em 0;
+    text-align: center;
+
+    .entry-taxonomy {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center
+    }
+
+    .taxonomy-item {
+        //border: solid 1px $black;
+        margin-bottom: 1em;
+        box-shadow: 5px 5px 5px #888888;
+        padding: 1em;
+        background-color: $background;
+        width: 80vw;
+        border-radius: 15px;
+
+    }
+}
+
 @media (min-width: 768px) {
     .hero-image-products{
         
         #searchform  {
             width: 60vw;
+        }
+    }
+.container-products {
+    margin: 2em 0;
+    .items-product {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        
+        a{
+            padding:0.7em;
+            .product-item {
+                width: 27vw;
+                
+            }
+        }
+       
+    }
+}
+
+//Style taxonomy.php
+#archive-wrapper{
+    
+
+    .page-header {
+        .page-title {
+            text-align: center;
+        }
+    }
+    .entry-taxonomy {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: stretch;
+        
+
+        .taxonomy-item {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            //border: solid 1px black;
+            width: 40vw;
+            
+
+        }
+
+    }
+
+   
+}
+
+
+    
+}
+
+@media (min-width: 1204px) {
+    .container-products {
+
+        margin-bottom: 2em;
+
+        .items-product {
+            a {
+                padding:0.7em;
+
+                .product-item {
+                    width: 20vw;
+                    margin: 1em;
+                }
+            }
+            
+
+            .product-item:hover {
+                background-color: $brown;
+                color: $primary;   
+            }
+
+            a:hover {
+              color: $primary;      
+            }
+        }
+
+        
+    }
+
+    #archive-wrapper {
+        
+        .entry-taxonomy{
+            margin-top: 3em;
+            .taxonomy-item {
+                width: 27vw;
+            }
         }
     }
 }

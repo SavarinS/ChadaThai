@@ -15,10 +15,18 @@
 
         .product {
             margin-bottom: 1em;
+            //border: solid 1px black;
+            //width: 60vw;
+            background-color: $background;
+            padding: 0.5em;
+            width:80vw;
+            box-shadow: 5px 5px 5px #888888;
 
             .product_title {
                 margin-top: 0.5em;
-                margin-bottom: 0.5em;
+                
+                
+
             }
 
     }
@@ -28,8 +36,31 @@
 
 @media (min-width: 768px) {
     .container-popular-products {
+        margin: 2em 0;
         .main-new-products {
             flex-direction: row;
+            align-items: stretch;
+            justify-content: space-evenly;
+
+            .product {
+                width: 27vw;
+                margin: 1em;
+            }
+
+        }
+    }
+}
+
+@media (min-width: 1204px) {
+    .container-popular-products {
+       
+        .main-new-products {
+            
+
+            .product {
+                width: 15vw;
+                
+            }
 
         }
     }

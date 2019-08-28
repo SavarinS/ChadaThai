@@ -1,0 +1,33 @@
+
+<?php //start by fetching the terms for the animal_cat taxonomy
+$terms = get_terms( 'products_cat', array(
+    'orderby'    => 'count',
+    'hide_empty' => 0
+) );
+?>
+<?php
+// now run a query for each animal family
+foreach( $terms as $term ) {
+ 
+    // Define the query
+    $args = array(
+        'post_type' => 'products',
+        'products_cat' => $term->slug
+    );
+    $query = new WP_Query( $args );
+     
+}?>
+<?php echo'<h2>' . $term->name . '</h2>'; ?>
+<?php echo '<ul>';
+     
+	 // Start the Loop
+	 while ( $query->have_posts() ) : $query->the_post(); ?>
+
+	 <li class="animal-listing" id="post-<?php the_ID(); ?>">
+		 <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+	 </li>
+	  
+	 <?php endwhile;
+  
+ echo '</ul>'; ?>
+	</div>

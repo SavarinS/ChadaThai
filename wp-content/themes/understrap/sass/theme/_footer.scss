@@ -1,0 +1,19 @@
+.widget-title {
+    color: $brown;
+}
+
+.textwidget {
+    p{
+        color: $brown;
+    }
+}
+
+@media (min-width: 768px) {
+    #wrapper-footer-full{
+        padding: 1em 0;
+    }
+
+    #gallery-1 {
+        margin: 2em 0;
+    }
+}

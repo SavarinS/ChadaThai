@@ -22,11 +22,18 @@
         //padding:1.5em;
 
         .about-info {
-            //width: 40vw;
+            width: 40vw;
         }
 
         .about-img{
-            //width:40vw;
+            width:40vw;
         }
     }
+}
+
+@media (min-width: 1280px) {
+   .container-about {
+       margin-top: 2em;
+       margin-bottom: 2em;
+   }
 }

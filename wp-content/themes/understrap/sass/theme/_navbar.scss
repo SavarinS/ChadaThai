@@ -19,10 +19,13 @@
     color:$brown;
 }
 
-.active{
-    color:$brown;
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: $brown;
 }
 
+.navbar-brand {
+    margin-right: 0;
+}
 
   
 
@@ -48,4 +51,10 @@
 
 
     
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        width:25vw;
+    }
 }

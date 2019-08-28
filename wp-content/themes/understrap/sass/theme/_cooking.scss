@@ -5,20 +5,23 @@
     background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/recipes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 60vh;
+    //min-height: 60vh;
     margin-top:1.5em;
     justify-content: center;
     align-items: center;
+    padding: 3em 0;
 
     .page-title-inspiration{
         h4 {
             color: $primary;
-            padding: 1em 0 1em 0;
+            text-shadow: 2px 2px $black;
+            padding: 1em 0;
         }
     
         h5 {
             color: $primary;
-            padding: 0 0 1em 0;
+            text-shadow: 2px 2px $black;
+            padding-bottom: 1em;
         }
 
 
@@ -26,10 +29,27 @@
 
     #searchform {
         //width: 80vw;
-        margin-top:1em;
+        margin-bottom:1em;
     }
    
 }
+
+iframe{
+    width: 100%;
+    height: auto;
+}
+.cooking {
+    padding: 1em;
+    .cooking-item {
+        //border: solid 1px $black;
+        padding: 0.5em;
+        margin-bottom: 1em;
+        box-shadow: 5px 5px 5px #888888;
+        background-color: $background;
+        border-radius: 10px;
+    }
+}
+
 
 @media (min-width: 768px) {
     .hero-image-inspiration{
@@ -38,4 +58,74 @@
             width: 60vw;
         }
     }
+
+    .cooking {
+        
+        margin: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        .cooking-item{
+            width:40vw;
+            margin: 1em;
+        }
+    }
+    
+    .single-content {
+        display:flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        .entry-header-cooking {
+            width:40vw;
+        }
+
+        .entry-content-cooking {
+            width:40vw;
+            padding: 1em;
+        }
+    }
+
+
+    .post-102 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        margin: 2em 0;
+    }
+
+    iframe {
+        height: 40vh;
+    }
+
+
+}
+
+@media (min-width: 1204px) {
+   
+
+    .cooking {
+        margin: 2em;
+
+        .cooking-item {
+            width: 25vw;
+
+            iframe {
+                height: 20vh;
+            }
+        }
+        
+
+        .entry-header-cooking {
+            width: 40vw;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-grow: 2;
+        }
+
+        
+    }
+
+    
 }

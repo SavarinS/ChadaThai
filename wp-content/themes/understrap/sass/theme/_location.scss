@@ -3,3 +3,29 @@
         padding: 1em;
     }
 }
+
+@media (min-width: 768px) {
+    .container-location {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 1em;
+        align-items: start;
+        margin-bottom: 1em;
+    
+    }
+}
+
+@media (min-width: 1280px) {
+    .container-location {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        justify-content: space-evenly;
+
+        .address {
+            padding: 2em;
+        }
+        .contact-image {
+            width: 60vh;
+        }
+    }
+ }

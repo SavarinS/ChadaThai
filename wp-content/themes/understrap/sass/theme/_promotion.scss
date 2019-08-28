@@ -9,12 +9,31 @@
     align-items: center;
 
     .promotion-title {
+        z-index: 1;
+        text-align: center;
         h4 {
             color: $primary;
+            text-shadow: 2px 2px $black;
         }
     }
 
     h5, p {
         color: $primary;
+        //text-shadow: 2px 2px $black;
+    }
+
+    .overlay {
+        background-color: $black;
+        width: 100vw;
+        height: 40vh;
+        opacity: 0.5;
+        position: absolute;
     }
 }
+
+@media (min-width: 1280px) {
+    .container-promotion {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+ }
