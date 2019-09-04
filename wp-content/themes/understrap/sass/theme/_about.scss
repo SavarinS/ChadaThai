@@ -12,6 +12,12 @@
         .store-title {
             font-weight: bold;
         }
+
+        .more-about {
+            a {
+                text-decoration: underline;
+            }
+        }
     }
 }
 
@@ -31,9 +37,9 @@
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
    .container-about {
-       margin-top: 2em;
-       margin-bottom: 2em;
+       margin: 2em;
+       
    }
 }

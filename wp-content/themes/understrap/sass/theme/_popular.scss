@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     padding: 1em;
+    background-color: $background;
 
     .main-new-products{
         display: flex;
@@ -14,19 +15,23 @@
         align-items: center;
 
         .product {
-            margin-bottom: 1em;
-            //border: solid 1px black;
-            //width: 60vw;
+ 
             background-color: $background;
             padding: 0.5em;
-            width:80vw;
-            box-shadow: 5px 5px 5px #888888;
+            width:100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            
 
             .product_title {
-                margin-top: 0.5em;
-                
-                
+                width:40vw;
 
+            }
+
+            .product_image {
+                width: 25vw;
             }
 
     }
@@ -36,24 +41,38 @@
 
 @media (min-width: 768px) {
     .container-popular-products {
-        margin: 2em 0;
+        background-color: transparent;
+        
         .main-new-products {
-            flex-direction: row;
-            align-items: stretch;
-            justify-content: space-evenly;
+           flex-direction: row;
+           align-items: baseline;
 
-            .product {
-                width: 27vw;
-                margin: 1em;
+            a{
+                margin: 0.8em;
+
+                .product {
+                    flex-direction: column;
+                    width: 15vw;
+     
+                    .product_image {
+                        width: auto;
+                    }
+                    .product_title {
+                        width: auto;
+                    }
+                 }
             }
+
+           
 
         }
     }
 }
 
-@media (min-width: 1204px) {
+@media (min-width: 1024px) {
     .container-popular-products {
-       
+       padding: 0;
+       margin: 2em;
         .main-new-products {
             
 

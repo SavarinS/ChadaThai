@@ -3,6 +3,6 @@
 		<h4>Vill du laga thaimat idag?</h4>
 		<button><p>Recepter</p></button>
 	</div>
-	<div class="overlay"></div>
+	
 	
 </div>

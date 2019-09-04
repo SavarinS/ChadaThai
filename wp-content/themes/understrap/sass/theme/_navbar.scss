@@ -1,3 +1,4 @@
+
 .main-menu {
     display: flex;
     flex-direction: column;
@@ -45,16 +46,46 @@
 //list item in menu
 #main-menu {
     li{
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        text-align: center;
+
     }
 
 
     
 }
 
-@media (min-width: 768px) {
-    .navbar-brand {
-        width:25vw;
+.search-form {
+    margin: 0.5em;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .navbar{
+        display: none;
     }
+
+    
+}
+
+@media (min-width:1000px){
+    .search-form {
+        border-top:1px solid $black;
+        border-bottom: 1px solid $black;
+        .section-form {
+            margin-left: 3em;
+            margin-right: 3em;
+            border-left:1px solid $black;
+            border-right: 1px solid $black;
+     
+            .form-control {
+                padding: 1.5em;
+            }
+        }
+     
+        
+     }
 }

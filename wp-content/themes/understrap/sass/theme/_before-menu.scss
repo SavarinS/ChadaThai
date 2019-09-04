@@ -3,8 +3,7 @@
     padding: 1em;
 
     p{
-        color: $brown;
-        font-size: 0.8em;
+        //font-size: 0.8em;
     }
 }
 
@@ -14,18 +13,8 @@
         justify-content: space-between;
         padding:1em;
 
-        .item1{
-            p{
-                //margin:1em;
-            }
-        }
 
-        .item2{
-            display: flex;
-            p {
-                //margin:1em;
-            }
-        }
+      
     }
 }
 

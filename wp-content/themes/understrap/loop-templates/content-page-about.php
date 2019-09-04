@@ -26,7 +26,7 @@
 					<!-- .entry-content -->
 					<!-- display button with a link  -->
 					<div class="more-about">
-						<a href="<?php echo get_permalink( 32 ); ?>"><button><p><?php _e( 'Läs om oss' ); ?></p></button></a>
+						<a href="<?php echo get_permalink( 32 ); ?>"><?php _e( 'Läs om oss' ); ?></a>
 					</div>
 				</div><!-- div.about-info -->			
 		<?php endwhile; ?>

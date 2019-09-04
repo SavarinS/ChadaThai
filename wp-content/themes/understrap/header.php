@@ -31,17 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
-		<section class="before-menu">
-			<div class="item1">
-				<p>Följa oss på Facebook: Chadathaimarket </p>
-			</div>
-			<div class="item2">
-
-				<p>Öppettid mån-fre kl.10-18 lör kl.10-14</p>
-				<p>Tel. 0730 79 42 31</p>
-			</div>
-			
-		</section>
+	
 
 <!-- Navbar begins here -->
 		<nav class="navbar navbar-expand-md navbar-dark bg-primary">
@@ -78,6 +68,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</button>
 
 				<!-- The WordPress Menu goes here -->
+				<div class="wp-nav">
 				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
@@ -90,6 +81,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
+
+				</div>
 			<?php if ( 'container' == $container ) : ?>
 			</div><!-- .container -->
 			<?php endif; ?>

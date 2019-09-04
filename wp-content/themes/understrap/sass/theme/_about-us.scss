@@ -1,4 +1,6 @@
-
+#page-wrapper-about {
+    margin: 1.2em;
+}
 
 @media (min-width: 768px) {
    
@@ -7,6 +9,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
+        margin-top:3em;
 
         .post-image, .post-info {
             width: 40vw;

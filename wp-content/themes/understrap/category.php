@@ -13,7 +13,10 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-<?php get_template_part( 'global-templates/hero-inspiration' ); ?>
+<?php get_template_part( 'global-templates/hero-search' ); ?>
+<div class="inspiration-page-tittle">
+<h4 class="text-center"><?php _e('Vill du laga thaimat idag?'); ?></h4>
+</div>
 
 <div class="wrapper cooking" id="category-wrapper">
 
@@ -27,5 +30,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 			
 
 </div><!-- #page-wrapper -->
+<footer class="entry-footer">
+
+<?php edit_post_link( __( 'Edit', 'understrap' ), '<span class="edit-link">', '</span>' ); ?>
+
+</footer><!-- .entry-footer -->
 
 <?php get_footer(); ?>

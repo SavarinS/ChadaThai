@@ -5,11 +5,9 @@
     background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/rice1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    //min-height: 60vh;
-    margin-top:1.5em;
     justify-content: center;
     align-items: center;
-    padding: 3em 0;
+    padding: 1em;
 
     h4 {
         color: $primary;
@@ -24,7 +22,7 @@
     }
 
 
-    #searchform {
+    form {
         //width: 80vw;
         margin-bottom:1em;
     }
@@ -38,11 +36,18 @@
     border-color: $yellow;
 }
 
+
 @media (min-width: 768px) {
     .hero-image{
         
         #searchform  {
             width: 60vw;
         }
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-image {
+        height: 50vh;
     }
 }

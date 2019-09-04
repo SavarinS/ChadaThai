@@ -34,6 +34,7 @@ $the_query = new WP_Query( array(
 		?>
 	</div>
 
+
  <?php endwhile; ?>
  <!-- end of the loop -->
 
@@ -43,10 +44,6 @@ $the_query = new WP_Query( array(
 <?php endif; ?>
 <!-- end wp_query -->
 
-	<footer class="entry-footer">
 
-		<?php edit_post_link( __( 'Edit', 'understrap' ), '<span class="edit-link">', '</span>' ); ?>
-
-	</footer><!-- .entry-footer -->
 
 

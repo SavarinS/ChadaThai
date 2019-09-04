@@ -23,16 +23,18 @@
 		<?php if ( $the_query->have_posts() ) : ?>
 			<!-- the loop -->
 			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-				<div class="product">
-					<a href="<?php echo get_permalink( $post->ID ); ?>">	
+				
+					<a href="<?php echo get_permalink( $post->ID ); ?>">
+					<div class="product">	
 						<div class="product_image">
 							<?php the_post_thumbnail('thumbnail'); ?>
 						</div>
 						<div class="product_title">
 							<h6><?php the_title(); ?></h6>
 						</div><!-- end .product-title -->
+						</div><!-- end .product -->
 					</a>
-				</div><!-- end .product -->
+				
 	
 		<?php endwhile; ?>
 		<!-- end of the loop -->

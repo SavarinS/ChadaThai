@@ -22,18 +22,20 @@
         //text-shadow: 2px 2px $black;
     }
 
-    .overlay {
-        background-color: $black;
-        width: 100vw;
-        height: 40vh;
-        opacity: 0.5;
-        position: absolute;
-    }
+    
 }
-
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
     .container-promotion {
-        margin-top: 2em;
-        margin-bottom: 2em;
+        width: 40vw;
+        margin: 0 1em;
+        border-radius: 10px;
+
+    }
+
+   
+}
+@media (min-width: 1024px) {
+    .container-promotion {
+        width: 25vw;
     }
  }

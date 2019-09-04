@@ -20,7 +20,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php if (is_page(array('om-oss', 'about-th', 'about-us' ))) : ?>
-	<?php get_template_part( 'global-templates/hero-about' ); ?>
+	<?php get_template_part( 'global-templates/hero-search' ); ?>
 
 		<div class="wrapper" id="page-wrapper-about">
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -41,7 +41,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div><!-- #page-wrapper -->
 
 <?php elseif (is_page(array('kontakt', 'contact-th', 'contact-us' ))) : ?>
-	<?php get_template_part( 'global-templates/hero-contact' ); ?>
+	<?php get_template_part( 'global-templates/hero-search' ); ?>
 		<div class="wrapper" id="page-wrapper-contact">
 			<?php while ( have_posts() ) : the_post(); ?>
 

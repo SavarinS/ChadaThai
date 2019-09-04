@@ -21,17 +21,9 @@ h1, h2, h3,h4,h5, h6 {
     line-height: 200%;
 }
 
-button {
+.btn-light {
     background-color: $yellow;
-    border: 1px solid $yellow;
-    border-radius: 15px;
-    padding: 0.4em;
-    p {
-        color: $brown;
-        margin: 0em;
-        font-weight: bold;
-    }
-    
+    border: none;
 }
 
 // * {
@@ -65,4 +57,25 @@ body {
         padding: 1em;
         margin: 2em 0;
     }
+
+    .section-items {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .sections{
+            margin: 2em;
+            display:flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+.section-items {
+    .sections {
+        margin: 0;
+    }
+}
 }

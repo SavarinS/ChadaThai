@@ -3,48 +3,42 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40vh;
-    min-width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
+    
 
     .recipes-image{
-        z-index: 1;
+        
         padding:0.5em;
         h4{
             color: $primary;
+            text-shadow: 2px 2px $black;
         }
     }
 
-    .overlay {
-        background-color: $black;
-        width: 100%;
-        height: 100%;
-        opacity: 0.5;
-        position: absolute;
-    }
+   
 }
 
 @media (min-width: 768px) {
     .container-recipes {
-        margin-top: 2em;
-       
-        
-        
-
+        border-radius: 10px;
         .recipes-image {
             padding: 2em;
-            h4 {
-                //text-shadow: 2px 2px $black;
-            }
+            
         }
+
+    }
+
+    .section-cooking {
+        width:100%;
+        margin: 0 3.5em;
     }
 }
 
-@media (min-width: 1204px){
+@media (min-width: 1024px){
     .container-recipes {
         
 
@@ -54,5 +48,10 @@
                 padding: 1em;
             }
         }
+    }
+
+    .section-cooking {
+        width:25vw;
+        margin: 0;
     }
 }

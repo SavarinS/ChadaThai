@@ -20,8 +20,9 @@
 		<?php if ( $the_query->have_posts() ) : ?>
 			<!-- the loop -->
 			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-				<div class="new-product">
+				
 					<a href="<?php echo get_permalink( $post->ID ); ?>">
+					<div class="new-product">
 						<div class="new-product-image">
 							<?php the_post_thumbnail('thumbnail'); ?>
 						</div>
@@ -29,8 +30,9 @@
 							<h6><?php the_title(); ?></h6>
 						</div>
 						<?php //the_terms(get_the_ID(), 'products_cat'); ?>
+						</div><!-- end .product -->	
 					</a>
-				</div><!-- end .product -->	
+				
 			<?php endwhile; ?>
 		<!-- end of the loop -->
 			<?php else : ?>

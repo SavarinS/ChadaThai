@@ -1,37 +1,5 @@
-.hero-image-inspiration{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/recipes.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    //min-height: 60vh;
-    margin-top:1.5em;
-    justify-content: center;
-    align-items: center;
-    padding: 3em 0;
-
-    .page-title-inspiration{
-        h4 {
-            color: $primary;
-            text-shadow: 2px 2px $black;
-            padding: 1em 0;
-        }
-    
-        h5 {
-            color: $primary;
-            text-shadow: 2px 2px $black;
-            padding-bottom: 1em;
-        }
-
-
-    }
-
-    #searchform {
-        //width: 80vw;
-        margin-bottom:1em;
-    }
-   
+.inspiration-page-tittle {
+    margin: 1em 1em 0 1em;
 }
 
 iframe{
@@ -39,7 +7,7 @@ iframe{
     height: auto;
 }
 .cooking {
-    padding: 1em;
+    
     .cooking-item {
         //border: solid 1px $black;
         padding: 0.5em;

@@ -14,9 +14,7 @@
 			<div class="address">
 				<h5><?php the_title(); ?></h5>
 				<p><?php the_content(); ?></p>
-				<div class="contact-us">
-					<a href="<?php echo get_permalink( 66 ); ?>"><button><p><?php _e( 'Kontakta oss' ); ?></p></button></a>
-				</div>
+				
 			
 		</div>
 		

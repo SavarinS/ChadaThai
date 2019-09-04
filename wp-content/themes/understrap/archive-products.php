@@ -14,7 +14,7 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-<?php get_template_part( 'global-templates/hero-products' ); ?>
+<?php get_template_part( 'global-templates/hero-search' ); ?>
 <div class="wrapper" id="archive-wrapper">
 	
 
@@ -32,7 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					
 
 						<?php 
-						get_template_part( 'loop-templates/content', 'page-products' );
+						get_template_part( 'loop-templates/content', 'page-products-old' );
 						 ?>
 
 				<?php else : ?>
