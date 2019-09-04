@@ -81,35 +81,45 @@
 
 
 // Products page
-.hero-image-products {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/products.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    //min-height: 60vh;
-    margin-top:1.5em;
-    justify-content: center;
-    align-items: center;
-    padding: 3em 0;
-
-    h4 {
-        color: $primary;
-        padding: 1em 0 1em 0;
+.items-product-old {
+    a {
+        
+        li{
+            list-style-type: none;
+            padding: 1em;
+            margin: 1em 0;
+            border: 1px solid $black;
+        }
     }
+}
 
-    h5 {
-        color: $primary;
-        padding: 0 0 1em 0;
+.products-new-pop {
+    .new-item {
+        background-color: $yellow;
+        margin-bottom: 2em;
+        border-radius: 10px;
+
+        a{
+            .product-new-pop{
+                background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/noodle.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+               height: 40vh;
+                
+                display:flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+
+            .new-title{
+                padding:1em;
+                list-style-type: none;
+
+            }
+        }
     }
-
-
-    #searchform {
-        //width: 80vw;
-        margin-top:1em;
-    }
-
+    
 }
 
 //search button

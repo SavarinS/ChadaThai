@@ -1,4 +1,4 @@
-.mob-menu-logo-holder > .headertext span,.mobmenu input.mob-menu-search-field{font-family:"Roboto";font-size:20px;font-weight:inherit;font-style:normal;letter-spacing:normal;text-transform:none;}.left-menu-icon-text{font-family:"Dosis";color:#333;font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}#mobmenuleft .mob-expand-submenu,#mobmenuleft > .widgettitle,#mobmenuleft li a,#mobmenuleft li a:visited,#mobmenuleft .mobmenu-content h2,#mobmenuleft .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}.right-menu-icon-text{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}#mobmenuright li a,#mobmenuright li a:visited,#mobmenuright .mobmenu-content h2,#mobmenuright .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}.mob-menu-logo-holder > .headertext span,.mobmenu input.mob-menu-search-field{font-family:"Roboto";font-size:20px;font-weight:inherit;font-style:normal;letter-spacing:normal;text-transform:none;}.left-menu-icon-text{font-family:"Dosis";color:#333;font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}#mobmenuleft .mob-expand-submenu,#mobmenuleft > .widgettitle,#mobmenuleft li a,#mobmenuleft li a:visited,#mobmenuleft .mobmenu-content h2,#mobmenuleft .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}.right-menu-icon-text{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}#mobmenuright li a,#mobmenuright li a:visited,#mobmenuright .mobmenu-content h2,#mobmenuright .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}
+.mob-menu-logo-holder > .headertext span,.mobmenu input.mob-menu-search-field{font-family:"Roboto";font-size:20px;font-weight:inherit;font-style:normal;letter-spacing:normal;text-transform:none;}.left-menu-icon-text{font-family:"Roboto";color:#333;font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}#mobmenuleft .mob-expand-submenu,#mobmenuleft > .widgettitle,#mobmenuleft li a,#mobmenuleft li a:visited,#mobmenuleft .mobmenu-content h2,#mobmenuleft .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name{font-family:"Roboto";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}.right-menu-icon-text{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}#mobmenuright li a,#mobmenuright li a:visited,#mobmenuright .mobmenu-content h2,#mobmenuright .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}.mob-menu-logo-holder > .headertext span,.mobmenu input.mob-menu-search-field{font-family:"Roboto";font-size:20px;font-weight:inherit;font-style:normal;letter-spacing:normal;text-transform:none;}.left-menu-icon-text{font-family:"Roboto";color:#333;font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}#mobmenuleft .mob-expand-submenu,#mobmenuleft > .widgettitle,#mobmenuleft li a,#mobmenuleft li a:visited,#mobmenuleft .mobmenu-content h2,#mobmenuleft .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name{font-family:"Roboto";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}.right-menu-icon-text{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}#mobmenuright li a,#mobmenuright li a:visited,#mobmenuright .mobmenu-content h2,#mobmenuright .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name{font-family:"Dosis";font-size:inherit;font-weight:inherit;font-style:normal;line-height:1.5em;letter-spacing:normal;text-transform:none;}
 @media screen and ( min-width: 782px ){
 		body.admin-bar .mobmenu, body.admin-bar .mobmenu-panel {
 			top: 32px!important;
@@ -46,20 +46,20 @@
 	}
 }
 
-@media only screen and (min-width:1025px){
+@media only screen and (min-width:1000px){
 	.mob_menu, .mobmenu-panel, .mobmenu, .mobmenu-cart-panel, .mobmenu-footer-menu-holder, .mobmenu-right-panel, .mobmenu-left-panel  {
 		display: none!important;
 	}
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:999px) {
 
 			
 	.mobmenur-container i {
 		color: #222;
 	}
 	.mobmenul-container i {
-		color: #666;
+		color: #000000;
 	}
 	.mobmenul-container img {
 		max-height:  50px;
@@ -73,7 +73,7 @@
 		font-size: 25px;
 	}
 	#mobmenuleft li a , #mobmenuleft li a:visited, .mobmenu-content h2, .mobmenu-content h3, .show-nav-left .mob-menu-copyright, .show-nav-left .mob-expand-submenu i {
-		color: #666;
+		color: #000000;
 
 	}
 	.mob-cancel-button {
@@ -89,7 +89,7 @@
 		background-color: #666;
 	}
 	.mobmenu-content #mobmenuleft li:hover, .mobmenu-content #mobmenuright li:hover  {
-		background-color: #666;
+		background-color: #f2cd5e;
 	}
 	.mobmenu-content #mobmenuright li:hover  {
 		background-color: #8dacba ;
@@ -104,7 +104,7 @@
 	}
 
 		.mobmenu-content #mobmenuleft .sub-menu {
-		background-color: #3a3a3a ;
+		background-color: #ffffff ;
 		margin: 0;
 		color: #fff ;
 		width: 100%;
@@ -143,7 +143,7 @@
 		width: 100%;
 	}
 	#mobmenuleft li:hover a, #mobmenuleft li:hover i {
-		color: #444;
+		color: #8c4303;
 	}
 	#mobmenuright li a , #mobmenuright li a:visited, .show-nav-right .mob-menu-copyright, .show-nav-right .mob-expand-submenu i {
 		color: #fff ;
@@ -166,14 +166,14 @@
 		.mob-menu-logo-holder {
 		padding-top:  10px;
 		margin-top:   0px;
-		text-align:   center;
+		text-align:   right;
 		margin-left:  0;
-		margin-right: 0;
+		margin-right: 20px;;
 		height:       50px;
-			}
+		float:right;	}
 	.mob-menu-header-holder {
 		width:  100% ;
-		background-color: #f7f7f7 ;
+		background-color: #f2cd5e ;
 		height: 50px ;
 		position:fixed;
 	}
@@ -181,7 +181,7 @@
 		padding-top: 50px;
 	}
 		.mobmenul-container, .mobmenur-container{
-		position: absolute; 
+		position: relative; 
 	}
 	.mobmenu-left-panel {
 		background-color:#F7F7F7;;
@@ -191,7 +191,7 @@
 		background-color:#38404c;		width:  270px; 
 	}
 	.show-nav-left .mobmenu-overlay, .show-nav-right .mobmenu-overlay, .show-mob-menu-search .mobmenu-overlay  {
-		background: rgba(0, 0, 0, 0.83);
+		background: #f2cd5e;
 	}
 	.show-nav-left .mob-menu-header-holder, .show-nav-right .mob-menu-header-holder{
 		-webkit-transition: .5s;
@@ -261,7 +261,7 @@
 		color: #222 ;
 	}
 	.headertext span {
-		position: initial;
+		position: absolute;
 		line-height: 50px;
 	}
 	.mobmenu-search-holder {
@@ -295,10 +295,10 @@
 	.left-menu-icon-text {
 		float: left;
 		line-height: 30px;
-		color: #222;
+		color: #000000;
 	}
 	.mobmenu-left-panel .mobmenu-display-name {
-		color: #666;
+		color: #000000;
 	}
 	.right-menu-icon-text {
 		float: right;
@@ -320,7 +320,7 @@
 	.mob-retina-logo {
 		height:50px!important;	}
 	.mobmenu-content #mobmenuleft > li > a:hover {
-		background-color: #666;
+		background-color: #f2cd5e;
 	}
 
 	.mobmenu-content #mobmenuright > li > a:hover {
@@ -333,7 +333,7 @@
 		color: ;
 	}
 	.mobmenu-left-panel .mob-cancel-button {
-		color: #fff;
+		color: #000000;
 	}
 	.mobmenu-right-panel .mob-cancel-button {
 		color: #fff;
