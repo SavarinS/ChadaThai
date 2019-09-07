@@ -24,9 +24,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<section class="hero-image">
 		<div class="page-title">
-		<h4>Thai market i Eslöv</h4>
+		<h4><?php _e('Välkommen till Thai market i Eslöv'); ?></h4>
+		
 		</div>
-		<h5>Sök produkter eller recepter</h5>
+		<h5><?php _e('Vad letar du efter?'); ?></h5>
 		<!-- Search form -->
 		<?php get_search_form(); ?>						
 	</section>

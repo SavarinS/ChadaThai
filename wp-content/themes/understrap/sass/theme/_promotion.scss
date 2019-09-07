@@ -9,7 +9,9 @@
     align-items: center;
 
     .promotion-title {
-        z-index: 1;
+        background-color: rgba(46, 49, 49, 0.6);
+        margin: 0 1em;
+        padding: 0.5em;
         text-align: center;
         h4 {
             color: $primary;

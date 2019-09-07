@@ -27,6 +27,10 @@
         text-shadow: 2px 2px $black;
         
     }
+    p{
+        color: $primary;
+        text-decoration: underline;
+    }
 
     button {
         color: $primary;

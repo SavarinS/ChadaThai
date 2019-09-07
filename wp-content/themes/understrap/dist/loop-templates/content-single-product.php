@@ -31,7 +31,7 @@ defined( 'ABSPATH' ) || exit;
 	<div class="sect2">
 
 		<div class="entry-title-single">
-			<?php the_title( '<h4 class="entry-title">', '</h4>' ); ?>
+			<?php the_title( '<h5 class="entry-title">', '</h5>' ); ?>
 		</div><!-- .entry-content -->
 
 		<div class="entry-info-single">

@@ -9,27 +9,38 @@
 		<h6><?php _e('Fresh frozen products and other every Wednesday.'); ?></h6>
 	</div>
 	<div class="items-product">
+		<div class="noodle item">
+			<p><?php _e('Nudlar'); ?></p>
+		</div>
+		<div class="coconutsmilk item">
+			<p><?php _e('Kokosmjölk'); ?></p>
+		</div>
+		<div class="frozen item">
+		<p><?php _e('Djupfrysning'); ?></p>
+		</div>
+
+		<div class="curry item">
+			<p><?php _e('Currypasta'); ?></p>
+		</div>
+
+		<div class="sauce item">
+			<p><?php _e('Sås'); ?></p>
+		</div>
+
+		<div class="spice item">
+
+			<p><?php _e('Kryddor'); ?></p>
+			
+		</div>
 		
-		<?php $terms = get_terms( array(
-			'taxonomy' => 'products_cat',
-			'hide_empty' => false,
-		) ); ?>
+	</div>
+	
+		
+	
+	<div class="see-all-products">
 
-		<?php if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
-			
-			foreach ( $terms as $term ) : ?>
-			<a href="<?php echo  get_term_link( $term ); ?>">
-			<div class="<?php echo $term->slug; ?> product-item" >
-			
-				
-				<?php echo $term->name; ?>		
-				
-				</div>
-				</a>
-				
-					
-			
-		<?php endforeach; ?> 
-		<?php } ?>
-
+		<a href="<?php echo get_post_type_archive_link( 'products' ); ?>"><?php _e('Alla produkter'); ?></a>
+	
+		
+	</div>
 	</div>

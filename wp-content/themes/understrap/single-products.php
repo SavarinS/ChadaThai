@@ -12,7 +12,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php get_template_part( 'global-templates/hero-products' ); ?>
+<?php get_template_part( 'global-templates/hero-search' ); ?>
 <div class="wrapper" id="single-wrapper">
 
 	
@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<?php get_template_part( 'sidebar-templates/sidebar', 'new' );?>
 				</div>
 
-				<div class="get-products">
+				<div class="get-products popular">
 					<?php get_template_part( 'sidebar-templates/sidebar', 'popular' );?>
 				</div>
 

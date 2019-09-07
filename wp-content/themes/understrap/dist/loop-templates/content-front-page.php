@@ -22,14 +22,8 @@ defined( 'ABSPATH' ) || exit;
 			<?php
 			get_template_part( 'loop-templates/content', 'page-popular' );
 			?>
-
-			<!-- show template news and promotion -->
-			<?php
-			get_template_part( 'loop-templates/content', 'page-promotion' );
-			?>
-
-			<!-- show template address -->
-			<?php
+	<!-- show template address -->
+	<?php
 			get_template_part( 'loop-templates/content', 'page-location' );
 			?>
 
@@ -38,20 +32,35 @@ defined( 'ABSPATH' ) || exit;
 			get_template_part( 'loop-templates/content', 'page-new' );
 			?>
 
+		
+			<div class="section-items">
+				<div class="sections">
 			<!-- show template food allergy -->
 			<?php
 			get_template_part( 'loop-templates/content', 'page-allergy' );
 			?>
+
+			<!-- show template news and promotion -->
+			<?php
+			get_template_part( 'loop-templates/content', 'page-promotion' );
+			?>
+
+			</div>
+
+			<div class="section-cooking">
+			<!-- show template recipes -->
+			<?php
+			get_template_part( 'loop-templates/content', 'page-recipes' );
+			?>
+			</div>
+			</div>
 
 			<!-- show template products -->
 			<?php
 			get_template_part( 'loop-templates/content', 'page-products' );
 			?>
 
-			<!-- show template recipes -->
-			<?php
-			get_template_part( 'loop-templates/content', 'page-recipes' );
-			?>
+			
 
 		<?php
 		wp_link_pages(

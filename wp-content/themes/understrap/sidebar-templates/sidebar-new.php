@@ -13,7 +13,7 @@
 		$the_query = new WP_Query( array( 
 			'post_type' => 'products',
 			'post_status' => 'publish',
-			'posts_per_page' => 6,
+			'posts_per_page' => 5,
 			'orderby' => 'modified',
 			'tax_query' => array(
 				array(
@@ -30,6 +30,7 @@
 		<?php if ( $the_query->have_posts() ) : ?>
 			<!-- the loop -->
 			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+			
 				<div class="product-item">
 					<a href="<?php echo get_permalink( $post->ID ); ?>">
 						<div class="product-image">

@@ -2,13 +2,11 @@
 <div class="container-allergy">
 	<div class="allergy-info">
 		<h4><?php _e('Är du allergisk mot mjölk, ägg, nötter eller vete?'); ?></h4>
-		<button><p><?php _e('Kolla här') ?></p></button>
+		<p><?php _e('Kolla här') ?></p>
 
-		<div class="overlay"></div>
+		
 	</div>
-	<!-- <div class="allergy-image">
-		<img src="http://localhost/eslovthaimarket/wp-content/themes/understrap/img/allergy.jpg" alt="Food allergy">
-	</div> -->
+
 	
 
 </div>

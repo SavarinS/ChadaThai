@@ -14,7 +14,7 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
-<?php get_template_part( 'global-templates/hero-products' ); ?>
+<?php get_template_part( 'global-templates/hero-search' ); ?>
 <div class="wrapper" id="archive-wrapper">
 
 
@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<header class="page-header">
 						<!-- <p>taxonomy.php</p> -->
 						<?php
-						the_archive_title( '<h4 class="page-title">', '</h4>' );
+						the_archive_title( '<h6 class="page-title">', '</h6>' );
 						the_archive_description( '<div class="taxonomy-description">', '</div>' );
 						?>
 					</header><!-- .page-header -->

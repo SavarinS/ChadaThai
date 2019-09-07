@@ -31,6 +31,6 @@ $the_query = new WP_Query( array(
 <!-- end wp_query -->
 
 </div>
-<div class="overlay"></div>
+
 
 </div>
