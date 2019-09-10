@@ -1,7 +1,7 @@
 <!-- Template display all products in front page  -->
 <div class="container-products">
 	<div class="products-page-title">
-		<h5><?php _e('Våra produkter'); ?></h5>
+		<h5><?php _e('Products', 'understrap'); ?></h5>
 	</div>
 
 	
@@ -38,8 +38,8 @@
 			<?php } ?>
 			</div>
 			<div class="basic-info-product">
-				<h6><?php _e('Färska grönsaker kommer på tisdag'); ?></h6>
-				<h6><?php _e('Fresh frozen products and other every Wednesday.'); ?></h6>
+				<h6><?php _e('Fresh vegetables from Thailand are available on Tuesday', 'understrap'); ?></h6>
+				<h6><?php _e('Other new products are available on Wednesday', 'understrap'); ?></h6>
 			</div>
 
 		</div>
@@ -49,8 +49,10 @@
 			<?php $terms = get_terms( array(
 				'taxonomy' => 'products_cat',
 				//'hide_empty' => false,
-				'exclude' => array(85, 87) //exclude new products cat and popular products cat
-				
+				'exclude' => array(85, 87, 159, 167, 163, 133) //exclude new products cat and popular products cat
+				//sv = 85, 87
+				//en = 159, 167
+				//th = 163, 133
 			) ); ?>
 
 			<?php if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){

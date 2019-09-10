@@ -5,23 +5,31 @@
     align-items: center;
     padding: 1em;
 
-    article {
+    .search-item {
         display: flex;
     flex-direction: column;
+    background-color: $background;
+    border-radius: 10px;
+    padding: 0.5em;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2em;
+   
     }
 }
+
+
 @media (min-width: 768px) {
     .articles {
         display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+        .search-item {
+            width:25vw;
+            margin: 1em;
+        }
     }
 
-    #search-wrapper {
-        padding: 2em;
-    }
+    
 }

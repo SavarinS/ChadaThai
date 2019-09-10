@@ -1,5 +1,5 @@
 <div class="container-new-products">
-	<h5><?php _e('Våra nya produkter'); ?></h5>
+	<h5><?php _e('New products', 'understrap'); ?></h5>
 	<?php 
 		// the query get about us page 
 		$the_query = new WP_Query( array( 
@@ -24,7 +24,15 @@
 					<a href="<?php echo get_permalink( $post->ID ); ?>">
 					<div class="new-product">
 						<div class="new-product-image">
-							<?php the_post_thumbnail('thumbnail'); ?>
+							<?php if(has_post_thumbnail()) { ?>
+								<div class="missing-image">
+									<?php echo get_the_post_thumbnail( $post->ID, 'medium' ); ?>
+								</div><!-- .search-image -->
+							<?php } else { ?>
+								<div class="no-image">
+									<p><?php _e('No image', 'understrap'); ?></p>
+								</div> <!-- .no-image -->
+							<?php } ?>
 						</div>
 						<div class="new-product-title">
 							<h6><?php the_title(); ?></h6>
@@ -36,7 +44,7 @@
 			<?php endwhile; ?>
 		<!-- end of the loop -->
 			<?php else : ?>
-				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+				<p><?php _e( 'Sorry, no posts matched your criteria', 'understrap' ); ?></p>
 			<?php endif; ?>
 			</div> <!-- end main-new-products -->
 	</div>

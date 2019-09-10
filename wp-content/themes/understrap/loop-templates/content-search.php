@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<article class="search-item">
 
 	<header class="entry-header">
 
@@ -19,6 +19,7 @@ defined( 'ABSPATH' ) || exit;
 			'</a></h5>'
 		);
 		?>
+		
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 
@@ -33,12 +34,16 @@ defined( 'ABSPATH' ) || exit;
 	</header><!-- .entry-header -->
 
 	<div class="entry-summary">
-
-		<?php //the_excerpt(); ?>
-		<?php the_content(); ?>
-		<div class="search-image">
-			<?php echo get_the_post_thumbnail( $post->ID, 'medium' ); ?>
-		</div>
+		<?php if(has_post_thumbnail()) { ?>
+			<div class="search-image">
+			<?php echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
+			
+			</div>
+		<?php } else { ?>
+			<?php the_excerpt(); ?>
+		<?php } ?>
+		
+		
 
 	</div><!-- .entry-summary -->
 

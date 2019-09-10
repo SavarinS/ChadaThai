@@ -3,7 +3,8 @@
 
 	<div class="promotion-title">
 		
-			<h4>Nyheter</h4>
+			<h6><?php _e('Promotion', 'understrap'); ?></h6>
+			
 	
 	
 	<!-- start wp_query to get posts in promotion category -->
@@ -19,18 +20,18 @@ $the_query = new WP_Query( array(
  
     <!-- the loop -->
     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-		<h5><?php the_title(); ?></h5>
+		<p><?php the_title(); ?></p>
 		<p><?php the_content(); ?></p>
     <?php endwhile; ?>
     <!-- end of the loop -->
 
- 
+	</div>
 <?php else : ?>
-    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    <p><?php _e( 'Sorry, no posts matched your criteria', 'understrap' ); ?></p>
 <?php endif; ?>
 <!-- end wp_query -->
 
-</div>
+
 
 
 </div>

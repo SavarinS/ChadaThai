@@ -28,7 +28,7 @@
 
  
 <?php else : ?>
-    <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    <p><?php _e( 'Sorry, no posts matched your criteria', 'understrap' ); ?></p>
 <?php endif; ?>
 <!-- end wp_query -->
 

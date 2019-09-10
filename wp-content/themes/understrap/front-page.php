@@ -20,39 +20,31 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php if ( is_front_page() && is_home() ) : ?>
+	<!-- Get hero template -->
 	<?php get_template_part( 'global-templates/hero' ); ?>
 
 	<section class="hero-image">
 		<div class="page-title">
-		<h4><?php _e('Välkommen till Thai market i Eslöv'); ?></h4>
-		
-		</div>
-		<h5><?php _e('Vad letar du efter?'); ?></h5>
-		<!-- Search form -->
-		<?php get_search_form(); ?>						
-	</section>
+			<h4><?php _e('Welcome to Thai market in Eslöv', 'understrap'); ?></h4>
+		</div> <!-- .page-title-->
+			<h5><?php _e('What are you looking for?', 'understrap'); ?></h5>
+			<!-- Search form -->
+			<?php get_search_form(); ?>						
+	</section> <!-- .hero-image -->
 
-<!-- <div class="wrapper3" id="index-wrapper"> -->
-	<!-- <div class="<?php //echo esc_attr( $container ); ?>" id="content" tabindex="-1"> -->
 	<main class="site-main" id="main">
 
 	<!-- show front page -->
 		<?php get_template_part( 'loop-templates/content', 'front-page' );?>
 
-<?php else : ?>
+		<?php else : ?>
 
 		<?php get_template_part( 'loop-templates/content', 'none' ); ?>
 
-				<?php endif; ?>
+		<?php endif; ?>
 
-			</main><!-- #main -->
+	</main><!-- #main -->
 
-			
 
-	<!-- </div> -->
-	<!-- #content -->
-
-<!-- </div> -->
-<!-- #index-wrapper -->
 
 <?php get_footer(); ?>

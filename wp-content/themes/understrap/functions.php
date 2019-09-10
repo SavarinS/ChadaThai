@@ -91,6 +91,7 @@ function cptui_register_my_cpts() {
 
 add_action( 'init', 'cptui_register_my_cpts' );
 
+
 function cptui_register_my_taxes() {
 
 	/**
@@ -123,3 +124,24 @@ function cptui_register_my_taxes() {
 }
 add_action( 'init', 'cptui_register_my_taxes' );
 
+
+ /**
+ * Add JavaScript
+ */
+
+function main_js_enqueue() {
+    wp_enqueue_script( 'script', get_template_directory_uri() . '/js/scripts.js', array ( 'jquery' ), 1.1, true);
+
+}
+add_action('wp_enqueue_scripts', 'main_js_enqueue');
+
+/**
+ * Filter the except length to 20 words.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );

@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-09-10 14:45+0200\n"
+"PO-Revision-Date: 2019-09-10 14:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: themes/understrap\n"
+"X-Poedit-SearchPath-1: themes/understrap/languages\n"
+"X-Poedit-SearchPath-2: languages\n"
+
+#: category.php:18
+msgid "Do you want to cook thai food today?"
+msgstr ""
+
+#: dist/category.php:18 dist/global-templates/hero-inspiration.php:3
+#: global-templates/hero-inspiration.php:3
+msgid "Vill du laga thaimat idag?"
+msgstr ""
+
+#: dist/front-page.php:27
+msgid "Välkommen till Thai market i Eslöv"
+msgstr "ยินดีต้อนรับ"
+
+#: dist/front-page.php:30
+msgid "Vad letar du efter?"
+msgstr ""
+
+#: dist/global-templates/hero-about.php:5
+#: dist/global-templates/hero-contact.php:6
+#: dist/global-templates/hero-inspiration.php:6
+#: global-templates/hero-about.php:5 global-templates/hero-contact.php:6
+#: global-templates/hero-inspiration.php:6
+msgid "Sök produkter eller recepter"
+msgstr ""
+
+#: dist/loop-templates/content-none.php:35 loop-templates/content-none.php:35
+msgid "Vi hittade tyvärr inga produkter som matchade din sökning."
+msgstr ""
+
+#: dist/loop-templates/content-none.php:36 loop-templates/content-none.php:36
+msgid "Söktips:"
+msgstr ""
+
+#: dist/loop-templates/content-none.php:37 loop-templates/content-none.php:37
+msgid ""
+"Kontrollera att alla ord är rättstavade\n"
+"Använd en stjärna (*) för att utöka din sökning, till exempel i slutet på "
+"ditt sökord."
+msgstr ""
+
+#: dist/loop-templates/content-page-about.php:29
+msgid "Läs om oss"
+msgstr ""
+
+#: dist/loop-templates/content-page-about.php:36
+#: dist/loop-templates/content-page-cooking.php:43
+#: dist/loop-templates/content-page-location.php:31
+#: dist/loop-templates/content-page-new.php:39
+#: dist/loop-templates/content-page-popular.php:42
+#: dist/loop-templates/content-page-promotion.php:29
+#: dist/sidebar-templates/sidebar-new.php:48
+#: dist/sidebar-templates/sidebar-popular.php:47
+#: loop-templates/content-page-about.php:36
+#: loop-templates/content-page-cooking.php:43
+#: loop-templates/content-page-location.php:31
+#: loop-templates/content-page-new.php:47
+#: loop-templates/content-page-popular.php:50
+#: loop-templates/content-page-promotion.php:30
+#: sidebar-templates/sidebar-new.php:57
+#: sidebar-templates/sidebar-popular.php:55
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: dist/loop-templates/content-page-allergy.php:4
+msgid "Är du allergisk mot mjölk, ägg, nötter eller vete?"
+msgstr ""
+
+#: dist/loop-templates/content-page-allergy.php:5
+msgid "Kolla här"
+msgstr ""
+
+#: dist/loop-templates/content-page-contact.php:28
+#: loop-templates/content-page-contact.php:28
+msgid "Hitta oss"
+msgstr ""
+
+#: dist/loop-templates/content-page-new.php:2
+#: dist/sidebar-templates/sidebar-new.php:10
+#: sidebar-templates/sidebar-new.php:10
+msgid "Våra nya produkter"
+msgstr ""
+
+#: dist/loop-templates/content-page-popular.php:3
+#: dist/sidebar-templates/sidebar-popular.php:10
+#: sidebar-templates/sidebar-popular.php:10
+msgid "Våra populära produkter"
+msgstr ""
+
+#: dist/loop-templates/content-page-products-old.php:4
+#: dist/loop-templates/content-page-products.php:4
+msgid "Våra produkter"
+msgstr ""
+
+#: dist/loop-templates/content-page-products-old.php:8
+#: dist/loop-templates/content-page-products.php:8
+msgid "Färska grönsaker kommer på tisdag"
+msgstr ""
+
+#: dist/loop-templates/content-page-products-old.php:9
+#: dist/loop-templates/content-page-products.php:9
+msgid "Fresh frozen products and other every Wednesday."
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:13
+msgid "Nudlar"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:16
+msgid "Kokosmjölk"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:19
+msgid "Djupfrysning"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:23
+msgid "Currypasta"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:27
+msgid "Sås"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:32
+msgid "Kryddor"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:42
+msgid "Alla produkter"
+msgstr ""
+
+#: dist/sidebar-templates/sidebar-related.php:8
+#: sidebar-templates/sidebar-related.php:8
+msgid "Andra tittar också"
+msgstr ""
+
+#: dist/woocommerce/cart/mini-cart.php:73 woocommerce/cart/mini-cart.php:73
+msgid "Subtotal"
+msgstr ""
+
+#: dist/woocommerce/cart/mini-cart.php:81 woocommerce/cart/mini-cart.php:81
+msgid "No products in the cart."
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-address.php:53
+#: woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: dist/woocommerce/myaccount/orders.php:89 woocommerce/myaccount/orders.php:89
+msgid "Previous"
+msgstr ""
+
+#: dist/woocommerce/myaccount/orders.php:93 woocommerce/myaccount/orders.php:93
+msgid "Next"
+msgstr ""
+
+#: dist/woocommerce/myaccount/orders.php:101
+#: woocommerce/myaccount/orders.php:101
+msgid "Go shop"
+msgstr ""
+
+#: dist/woocommerce/myaccount/orders.php:103
+#: woocommerce/myaccount/orders.php:103
+msgid "No order has been made yet."
+msgstr ""
+
+#: front-page.php:28
+msgid "Welcome to Thai market in Eslöv"
+msgstr ""
+
+#: front-page.php:30
+msgid "What are you looking for?"
+msgstr ""
+
+#: loop-templates/content-archive-products.php:20
+#: loop-templates/content-page-new.php:33
+#: loop-templates/content-page-popular.php:36
+#: loop-templates/content-single-product.php:20
+msgid "No image"
+msgstr ""
+
+#: loop-templates/content-page-about.php:29
+msgid "Read more"
+msgstr ""
+
+#: loop-templates/content-page-allergy.php:5
+msgid "Looking for gluten-free products?"
+msgstr ""
+
+#: loop-templates/content-page-allergy.php:20
+msgid "We have gluten-free products."
+msgstr ""
+
+#: loop-templates/content-page-new.php:2
+msgid "New products"
+msgstr ""
+
+#: loop-templates/content-page-popular.php:3
+msgid "Most buy products"
+msgstr ""
+
+#: loop-templates/content-page-products-old.php:4
+#: loop-templates/content-page-products.php:4
+msgid "Products"
+msgstr ""
+
+#: loop-templates/content-page-products-old.php:41
+#: loop-templates/content-page-products.php:8
+msgid "Fresh vegetables from Thailand are available on Tuesday."
+msgstr ""
+
+#: loop-templates/content-page-products-old.php:42
+#: loop-templates/content-page-products.php:9
+msgid "Other new products are available on Wednesday."
+msgstr ""
+
+#: loop-templates/content-page-products.php:48
+msgid "All products"
+msgstr ""
+
+#: loop-templates/content-page-promotion.php:6
+msgid "Promotion"
+msgstr ""
+
+#: loop-templates/content-page-recipes.php:3
+msgid "Do you feel like to cook thai food today?"
+msgstr ""
+
+#: loop-templates/content-page-recipes.php:4
+msgid "We have some recipes for you."
+msgstr ""
+
+#: loop-templates/content-single-product.php:65
+msgid "Description"
+msgstr ""
+
+#: loop-templates/content-single-product.php:70
+msgid "Category"
+msgstr ""
+
+#: sidebar-templates/sidebar-new.php:43
+#: sidebar-templates/sidebar-popular.php:42
+msgid "Produktbild saknas"
+msgstr ""

@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <?php get_template_part( 'global-templates/hero-search' ); ?>
 <div class="inspiration-page-tittle">
-<h4 class="text-center"><?php _e('Vill du laga thaimat idag?'); ?></h4>
+<h5 class="text-center"><?php _e('Do you want to cook thai food today?', 'understrap'); ?></h5>
 </div>
 
 <div class="wrapper cooking" id="category-wrapper">

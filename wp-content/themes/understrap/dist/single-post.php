@@ -12,7 +12,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php get_template_part( 'global-templates/hero-inspiration' ); ?>
+<?php get_template_part( 'global-templates/hero-search' ); ?>
 <div class="wrapper cooking" id="single-wrapper">
 
 	

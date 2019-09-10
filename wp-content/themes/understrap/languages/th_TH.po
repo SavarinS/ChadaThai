@@ -1,0 +1,1272 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-09-10 14:18+0200\n"
+"PO-Revision-Date: 2019-09-10 14:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-SearchPath-0: themes/understrap\n"
+"X-Poedit-SearchPath-1: themes/understrap/languages\n"
+"X-Poedit-SearchPath-2: languages\n"
+
+#: 404.php:30 dist/404.php:30 node_modules/undescores-for-npm/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ไม่พบหน้าที่ท่านต้องการ."
+
+#: 404.php:36 dist/404.php:36 node_modules/undescores-for-npm/404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "ไม่พบสิ่งที่ต้องการในหน้านี้ สามารถใช้ลิงค์ข้างล่างหรือค้นหา?"
+
+#: author.php:38 category-old.php:38 dist/author.php:38
+#: dist/category-old.php:38
+msgid "About:"
+msgstr ""
+
+#: author.php:47 category-old.php:47 dist/author.php:47
+#: dist/category-old.php:47 dist/inc/custom-comments.php:37
+#: inc/custom-comments.php:37
+msgid "Website"
+msgstr ""
+
+#: author.php:54 category-old.php:54 dist/author.php:54
+#: dist/category-old.php:54
+msgid "Profile"
+msgstr ""
+
+#: author.php:74 category-old.php:74 dist/author.php:74
+#: dist/category-old.php:74
+msgid "Permanent Link:"
+msgstr ""
+
+#: author.php:79 category-old.php:79 dist/author.php:79
+#: dist/category-old.php:79
+msgid "in"
+msgstr ""
+
+#: category.php:18
+msgid "Do you want to cook thai food today?"
+msgstr "วันนี้ทำอาหารกันไหมค่ะ?"
+
+#: category.php:35 dist/category.php:35
+#: dist/loop-templates/content-front-page.php:78
+#: dist/loop-templates/content-page-about-us.php:40
+#: dist/loop-templates/content-page-contact.php:52
+#: dist/loop-templates/content-page.php:39
+#: dist/woocommerce/myaccount/my-address.php:53
+#: loop-templates/content-front-page.php:78
+#: loop-templates/content-page-about-us.php:40
+#: loop-templates/content-page-contact.php:52
+#: loop-templates/content-page.php:39 woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: comments.php:37 dist/comments.php:37
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:44 dist/comments.php:44
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:62 comments.php:97 dist/comments.php:62 dist/comments.php:97
+#: node_modules/undescores-for-npm/comments.php:40
+#: node_modules/undescores-for-npm/comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:66 comments.php:101 dist/comments.php:66 dist/comments.php:101
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:72 comments.php:107 dist/comments.php:72 dist/comments.php:107
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:122 dist/comments.php:122
+#: node_modules/undescores-for-npm/comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: dist/404.php:46 node_modules/undescores-for-npm/404.php:33
+msgid "Most Used Categories"
+msgstr "หมวดหมู่ที่ถูกใช้มากที่สุด"
+
+#: dist/404.php:69 node_modules/undescores-for-npm/404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "ดูโพสประจำเดือน  %1$s"
+
+#: dist/category.php:18 dist/global-templates/hero-inspiration.php:3
+#: global-templates/hero-inspiration.php:3
+msgid "Vill du laga thaimat idag?"
+msgstr ""
+
+#: dist/front-page.php:27
+msgid "Välkommen till Thai market i Eslöv"
+msgstr ""
+
+#: dist/front-page.php:30
+msgid "Vad letar du efter?"
+msgstr ""
+
+#: dist/functions.php:59 dist/functions.php:66 functions.php:59
+#: functions.php:66
+msgid "Produkter"
+msgstr ""
+
+#: dist/functions.php:60 functions.php:60
+msgid "Produkt"
+msgstr ""
+
+#: dist/functions.php:61 functions.php:61
+msgid "Produkt bild"
+msgstr ""
+
+#: dist/functions.php:62 functions.php:62
+msgid "Product archives"
+msgstr "ประเภทของสินค้า"
+
+#: dist/functions.php:101 dist/functions.php:102 dist/functions.php:106
+#: functions.php:102 functions.php:103 functions.php:107
+msgid "Produkter Kategori"
+msgstr ""
+
+#: dist/global-templates/hero-about.php:5
+#: dist/global-templates/hero-contact.php:6
+#: dist/global-templates/hero-inspiration.php:6
+#: global-templates/hero-about.php:5 global-templates/hero-contact.php:6
+#: global-templates/hero-inspiration.php:6
+msgid "Sök produkter eller recepter"
+msgstr ""
+
+#: dist/header.php:33 header.php:33
+#: node_modules/undescores-for-npm/header.php:24
+msgid "Skip to content"
+msgstr "ข้ามไปยังเนื้อหาถัดไป"
+
+#: dist/header.php:66 header.php:66
+msgid "Toggle navigation"
+msgstr ""
+
+#: dist/inc/class-wp-bootstrap-navwalker.php:374
+#: inc/class-wp-bootstrap-navwalker.php:374
+msgid "Add a menu"
+msgstr ""
+
+#: dist/inc/custom-comments.php:31 inc/custom-comments.php:31
+msgid "Name"
+msgstr ""
+
+#: dist/inc/custom-comments.php:34 inc/custom-comments.php:34
+msgid "Email"
+msgstr ""
+
+#: dist/inc/custom-comments.php:41 inc/custom-comments.php:41
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment"
+msgstr ""
+
+#: dist/inc/custom-comments.php:62 inc/custom-comments.php:62
+msgid "Comment"
+msgstr ""
+
+#: dist/inc/custom-header.php:51 inc/custom-header.php:51
+msgid "Default Header Image"
+msgstr ""
+
+#: dist/inc/customizer.php:42 inc/customizer.php:42
+msgid "Theme Layout Settings"
+msgstr ""
+
+#: dist/inc/customizer.php:44 inc/customizer.php:44
+msgid "Container width and sidebar defaults"
+msgstr ""
+
+#: dist/inc/customizer.php:84 inc/customizer.php:84
+msgid "Container Width"
+msgstr ""
+
+#: dist/inc/customizer.php:85 inc/customizer.php:85
+msgid "Choose between Bootstrap's container and container-fluid"
+msgstr ""
+
+#: dist/inc/customizer.php:90 inc/customizer.php:90
+msgid "Fixed width container"
+msgstr ""
+
+#: dist/inc/customizer.php:91 inc/customizer.php:91
+msgid "Full width container"
+msgstr ""
+
+#: dist/inc/customizer.php:113 inc/customizer.php:113
+msgid "Sidebar Positioning"
+msgstr ""
+
+#: dist/inc/customizer.php:115 inc/customizer.php:115
+msgid ""
+"Set sidebar's default position. Can either be: right, left, both or none. "
+"Note: this can be overridden on individual pages."
+msgstr ""
+
+#: dist/inc/customizer.php:123 inc/customizer.php:123
+msgid "Right sidebar"
+msgstr ""
+
+#: dist/inc/customizer.php:124 inc/customizer.php:124
+msgid "Left sidebar"
+msgstr ""
+
+#: dist/inc/customizer.php:125 inc/customizer.php:125
+msgid "Left & Right sidebars"
+msgstr ""
+
+#: dist/inc/customizer.php:126 inc/customizer.php:126
+msgid "No sidebar"
+msgstr ""
+
+#: dist/inc/extras.php:97 inc/extras.php:97
+msgid "Post navigation"
+msgstr ""
+
+#: dist/inc/extras.php:101 inc/extras.php:101
+msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+msgstr ""
+
+#: dist/inc/extras.php:104 inc/extras.php:104
+msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: dist/inc/hooks.php:31 inc/hooks.php:31
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: dist/inc/hooks.php:34 inc/hooks.php:34
+#: node_modules/undescores-for-npm/footer.php:18
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: dist/inc/hooks.php:39 inc/hooks.php:39
+#: node_modules/undescores-for-npm/footer.php:20
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: dist/inc/hooks.php:41 inc/hooks.php:41
+msgid "http://understrap.com"
+msgstr ""
+
+#: dist/inc/hooks.php:45 inc/hooks.php:45
+#, php-format
+msgid "Version: %1$s"
+msgstr ""
+
+#: dist/inc/pagination.php:24 inc/pagination.php:24
+msgid "&laquo;"
+msgstr ""
+
+#: dist/inc/pagination.php:25 inc/pagination.php:25
+msgid "&raquo;"
+msgstr ""
+
+#: dist/inc/pagination.php:26 inc/pagination.php:26
+msgid "Posts navigation"
+msgstr ""
+
+#: dist/inc/setup.php:48 inc/setup.php:48
+#: node_modules/undescores-for-npm/header.php:44
+msgid "Primary Menu"
+msgstr ""
+
+#: dist/inc/setup.php:134 inc/setup.php:134
+msgid "Read More..."
+msgstr "อ่านเพิ่มเติม."
+
+#: dist/inc/template-tags.php:31 inc/template-tags.php:31
+msgid "Posted on"
+msgstr "เขียนเมื่อวันที่"
+
+#: dist/inc/template-tags.php:39 inc/template-tags.php:39
+msgid "by"
+msgstr ""
+
+#: dist/inc/template-tags.php:39 inc/template-tags.php:39
+msgid "Posted by"
+msgstr "เขียนโดย"
+
+#: dist/inc/template-tags.php:57 dist/inc/template-tags.php:63
+#: inc/template-tags.php:57 inc/template-tags.php:63
+#: node_modules/undescores-for-npm/inc/template-tags.php:50
+#: node_modules/undescores-for-npm/inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: dist/inc/template-tags.php:60 inc/template-tags.php:60
+#, php-format
+msgid "Posted in %s"
+msgstr ""
+
+#: dist/inc/template-tags.php:66 inc/template-tags.php:66
+#, php-format
+msgid "Tagged %s"
+msgstr ""
+
+#: dist/inc/template-tags.php:71 inc/template-tags.php:71
+msgid "Leave a comment"
+msgstr ""
+
+#: dist/inc/template-tags.php:71 inc/template-tags.php:71
+msgid "1 Comment"
+msgstr ""
+
+#: dist/inc/template-tags.php:71 inc/template-tags.php:71
+msgid "% Comments"
+msgstr ""
+
+#: dist/inc/template-tags.php:77 inc/template-tags.php:77
+#: node_modules/undescores-for-npm/inc/template-tags.php:72
+#: node_modules/undescores-for-npm/template-parts/content-page.php:34
+#, php-format
+msgid "Edit %s"
+msgstr "แก้ไข %s"
+
+#: dist/inc/widgets.php:100 inc/widgets.php:100
+msgid "Right Sidebar"
+msgstr ""
+
+#: dist/inc/widgets.php:102 inc/widgets.php:102
+msgid "Right sidebar widget area"
+msgstr ""
+
+#: dist/inc/widgets.php:112 inc/widgets.php:112
+msgid "Left Sidebar"
+msgstr ""
+
+#: dist/inc/widgets.php:114 inc/widgets.php:114
+msgid "Left sidebar widget area"
+msgstr ""
+
+#: dist/inc/widgets.php:124 inc/widgets.php:124
+msgid "Hero Slider"
+msgstr ""
+
+#: dist/inc/widgets.php:126 inc/widgets.php:126
+msgid "Hero slider area. Place two or more widgets here and they will slide!"
+msgstr ""
+
+#: dist/inc/widgets.php:136 inc/widgets.php:136
+msgid "Hero Canvas"
+msgstr ""
+
+#: dist/inc/widgets.php:138 inc/widgets.php:138
+msgid "Full size canvas hero area for Bootstrap and other custom HTML markup"
+msgstr ""
+
+#: dist/inc/widgets.php:148 inc/widgets.php:148
+msgid "Top Full"
+msgstr ""
+
+#: dist/inc/widgets.php:150 inc/widgets.php:150
+msgid "Full top widget with dynamic grid"
+msgstr ""
+
+#: dist/inc/widgets.php:160 inc/widgets.php:160
+msgid "Footer Full"
+msgstr ""
+
+#: dist/inc/widgets.php:162 inc/widgets.php:162
+msgid "Full sized footer widget with dynamic grid"
+msgstr ""
+
+#: dist/loop-templates/content-archive-products.php:39
+#: dist/loop-templates/content-archive.php:47
+#: dist/loop-templates/content-front-page.php:68
+#: dist/loop-templates/content-page-about-us.php:31
+#: dist/loop-templates/content-page-contact.php:42
+#: dist/loop-templates/content-page.php:29
+#: dist/loop-templates/content-single-post.php:46
+#: dist/loop-templates/content-single-product.php:49
+#: dist/loop-templates/content-single.php:36 dist/loop-templates/content.php:42
+#: loop-templates/content-archive.php:47
+#: loop-templates/content-front-page.php:68
+#: loop-templates/content-page-about-us.php:31
+#: loop-templates/content-page-contact.php:42
+#: loop-templates/content-page.php:29 loop-templates/content-single-post.php:46
+#: loop-templates/content-single-product.php:88
+#: loop-templates/content-single.php:36 loop-templates/content.php:42
+#: node_modules/undescores-for-npm/template-parts/content-page.php:22
+#: node_modules/undescores-for-npm/template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: dist/loop-templates/content-none.php:17 loop-templates/content-none.php:17
+#: node_modules/undescores-for-npm/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "ไม่พบข้อมูล"
+
+#: dist/loop-templates/content-none.php:26 loop-templates/content-none.php:26
+#: node_modules/undescores-for-npm/template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "ต้องการลงโพสไหม <a href=“%1$s”>กดที่นี่</a>."
+
+#: dist/loop-templates/content-none.php:35 loop-templates/content-none.php:35
+msgid "Vi hittade tyvärr inga produkter som matchade din sökning."
+msgstr ""
+
+#: dist/loop-templates/content-none.php:36 loop-templates/content-none.php:36
+msgid "Söktips:"
+msgstr ""
+
+#: dist/loop-templates/content-none.php:37 loop-templates/content-none.php:37
+msgid ""
+"Kontrollera att alla ord är rättstavade\n"
+"Använd en stjärna (*) för att utöka din sökning, till exempel i slutet på "
+"ditt sökord."
+msgstr ""
+
+#: dist/loop-templates/content-none.php:45 loop-templates/content-none.php:45
+#: node_modules/undescores-for-npm/template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "ไม่พบข้อมูลที่ค้นหา จะลองใช้การเครื่องมือการค้นหา."
+
+#: dist/loop-templates/content-page-about.php:29
+msgid "Läs om oss"
+msgstr "เกี่ยวกับเรา"
+
+#: dist/loop-templates/content-page-about.php:36
+#: dist/loop-templates/content-page-cooking.php:43
+#: dist/loop-templates/content-page-location.php:31
+#: dist/loop-templates/content-page-new.php:39
+#: dist/loop-templates/content-page-popular.php:42
+#: dist/loop-templates/content-page-promotion.php:29
+#: dist/sidebar-templates/sidebar-new.php:48
+#: dist/sidebar-templates/sidebar-popular.php:47
+#: loop-templates/content-page-about.php:36
+#: loop-templates/content-page-cooking.php:43
+#: loop-templates/content-page-location.php:31
+#: loop-templates/content-page-new.php:47
+#: loop-templates/content-page-popular.php:50
+#: loop-templates/content-page-promotion.php:30
+#: sidebar-templates/sidebar-new.php:57
+#: sidebar-templates/sidebar-popular.php:55
+msgid "Sorry, no posts matched your criteria."
+msgstr "ขออภัยไม่มีโพสที่ตรงกับเกณฑ์การค้นหาของคุณ."
+
+#: dist/loop-templates/content-page-allergy.php:4
+msgid "Är du allergisk mot mjölk, ägg, nötter eller vete?"
+msgstr ""
+
+#: dist/loop-templates/content-page-allergy.php:5
+msgid "Kolla här"
+msgstr ""
+
+#: dist/loop-templates/content-page-contact.php:28
+#: loop-templates/content-page-contact.php:28
+msgid "Hitta oss"
+msgstr ""
+
+#: dist/loop-templates/content-page-new.php:2
+#: dist/sidebar-templates/sidebar-new.php:10
+#: sidebar-templates/sidebar-new.php:10
+msgid "Våra nya produkter"
+msgstr ""
+
+#: dist/loop-templates/content-page-popular.php:3
+#: dist/sidebar-templates/sidebar-popular.php:10
+#: sidebar-templates/sidebar-popular.php:10
+msgid "Våra populära produkter"
+msgstr ""
+
+#: dist/loop-templates/content-page-products-old.php:4
+#: dist/loop-templates/content-page-products.php:4
+msgid "Våra produkter"
+msgstr ""
+
+#: dist/loop-templates/content-page-products-old.php:8
+#: dist/loop-templates/content-page-products.php:8
+msgid "Färska grönsaker kommer på tisdag"
+msgstr ""
+
+#: dist/loop-templates/content-page-products-old.php:9
+#: dist/loop-templates/content-page-products.php:9
+msgid "Fresh frozen products and other every Wednesday."
+msgstr "อาหารแช่แข็งและสินค้าอื่นๆมาทุกวันพุธ."
+
+#: dist/loop-templates/content-page-products.php:13
+msgid "Nudlar"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:16
+msgid "Kokosmjölk"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:19
+msgid "Djupfrysning"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:23
+msgid "Currypasta"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:27
+msgid "Sås"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:32
+msgid "Kryddor"
+msgstr ""
+
+#: dist/loop-templates/content-page-products.php:42
+msgid "Alla produkter"
+msgstr ""
+
+#: dist/search.php:38 dist/search.php:73 search.php:38 search.php:73
+#, php-format
+msgid "Sökresultat för: %s"
+msgstr ""
+
+#: dist/searchform.php:13 dist/searchform.php:19
+#: dist/woocommerce/product-searchform.php:30 searchform.php:13
+#: searchform.php:19 woocommerce/product-searchform.php:30
+msgid "Search"
+msgstr "ค้นหา"
+
+#: dist/searchform.php:16 searchform.php:16
+msgid "Sök produkter eller recepter &hellip;"
+msgstr ""
+
+#: dist/sidebar-templates/sidebar-hero.php:28
+#: dist/woocommerce/myaccount/orders.php:89
+#: sidebar-templates/sidebar-hero.php:28 woocommerce/myaccount/orders.php:89
+msgid "Previous"
+msgstr "ก่อน"
+
+#: dist/sidebar-templates/sidebar-hero.php:36
+#: dist/woocommerce/myaccount/orders.php:93
+#: sidebar-templates/sidebar-hero.php:36 woocommerce/myaccount/orders.php:93
+msgid "Next"
+msgstr "ถัดไป"
+
+#: dist/sidebar-templates/sidebar-related.php:8
+#: sidebar-templates/sidebar-related.php:8
+msgid "Andra tittar också"
+msgstr ""
+
+#: dist/woocommerce/cart/cart-empty.php:28 woocommerce/cart/cart-empty.php:28
+msgid "Return to shop"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:30 dist/woocommerce/cart/cart.php:74
+#: dist/woocommerce/checkout/form-pay.php:27 woocommerce/cart/cart.php:30
+#: woocommerce/cart/cart.php:74 woocommerce/checkout/form-pay.php:27
+msgid "Product"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:31 dist/woocommerce/cart/cart.php:94
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:94
+msgid "Price"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:32 dist/woocommerce/cart/cart.php:100
+#: dist/woocommerce/global/quantity-input.php:28 woocommerce/cart/cart.php:32
+#: woocommerce/cart/cart.php:100 woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:33 dist/woocommerce/cart/cart.php:118
+#: dist/woocommerce/myaccount/my-orders.php:16 woocommerce/cart/cart.php:33
+#: woocommerce/cart/cart.php:118 woocommerce/myaccount/my-orders.php:16
+msgid "Total"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:55 dist/woocommerce/cart/mini-cart.php:48
+#: woocommerce/cart/cart.php:55 woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:89 woocommerce/cart/cart.php:89
+msgid "Available on backorder"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:136 woocommerce/cart/cart.php:136
+msgid "Coupon:"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:136
+#: dist/woocommerce/checkout/form-coupon.php:34 woocommerce/cart/cart.php:136
+#: woocommerce/checkout/form-coupon.php:34
+msgid "Coupon code"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:136
+#: dist/woocommerce/checkout/form-coupon.php:38 woocommerce/cart/cart.php:136
+#: woocommerce/checkout/form-coupon.php:38
+msgid "Apply coupon"
+msgstr ""
+
+#: dist/woocommerce/cart/cart.php:141 woocommerce/cart/cart.php:141
+msgid "Update cart"
+msgstr ""
+
+#: dist/woocommerce/cart/mini-cart.php:73 woocommerce/cart/mini-cart.php:73
+msgid "Subtotal"
+msgstr ""
+
+#: dist/woocommerce/cart/mini-cart.php:81 woocommerce/cart/mini-cart.php:81
+msgid "No products in the cart."
+msgstr ""
+
+#: dist/woocommerce/cart/proceed-to-checkout-button.php:26
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr ""
+
+#: dist/woocommerce/checkout/form-checkout.php:26
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: dist/woocommerce/checkout/form-checkout.php:52
+#: woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr ""
+
+#: dist/woocommerce/checkout/form-coupon.php:26
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: dist/woocommerce/checkout/form-coupon.php:26
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr ""
+
+#: dist/woocommerce/checkout/form-coupon.php:31
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: dist/woocommerce/checkout/form-pay.php:28
+#: dist/woocommerce/global/quantity-input.php:41
+#: woocommerce/checkout/form-pay.php:28
+#: woocommerce/global/quantity-input.php:41
+msgid "Qty"
+msgstr ""
+
+#: dist/woocommerce/checkout/form-pay.php:29
+#: woocommerce/checkout/form-pay.php:29
+msgid "Totals"
+msgstr ""
+
+#: dist/woocommerce/checkout/form-pay.php:79
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: dist/woocommerce/checkout/payment.php:33 woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: dist/woocommerce/checkout/payment.php:33 woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: dist/woocommerce/checkout/payment.php:42 woocommerce/checkout/payment.php:42
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: dist/woocommerce/checkout/payment.php:44 woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: dist/woocommerce/global/form-login.php:34
+#: dist/woocommerce/myaccount/form-lost-password.php:28
+#: woocommerce/global/form-login.php:34
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Username or email"
+msgstr ""
+
+#: dist/woocommerce/global/form-login.php:38
+#: dist/woocommerce/myaccount/form-login.php:42
+#: dist/woocommerce/myaccount/form-login.php:94
+#: woocommerce/global/form-login.php:38 woocommerce/myaccount/form-login.php:42
+#: woocommerce/myaccount/form-login.php:94
+msgid "Password"
+msgstr ""
+
+#: dist/woocommerce/global/form-login.php:47
+#: dist/woocommerce/myaccount/form-login.php:50
+#: woocommerce/global/form-login.php:47 woocommerce/myaccount/form-login.php:50
+msgid "Remember me"
+msgstr ""
+
+#: dist/woocommerce/global/form-login.php:51
+#: dist/woocommerce/myaccount/form-login.php:31
+#: woocommerce/global/form-login.php:51 woocommerce/myaccount/form-login.php:31
+msgid "Login"
+msgstr ""
+
+#: dist/woocommerce/global/form-login.php:55
+#: dist/woocommerce/myaccount/form-login.php:57
+#: woocommerce/global/form-login.php:55 woocommerce/myaccount/form-login.php:57
+msgid "Lost your password?"
+msgstr ""
+
+#: dist/woocommerce/global/quantity-input.php:28
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: dist/woocommerce/loop/orderby.php:24 woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr ""
+
+#: dist/woocommerce/myaccount/downloads.php:41
+#: dist/woocommerce/myaccount/orders.php:101
+#: woocommerce/myaccount/downloads.php:41 woocommerce/myaccount/orders.php:101
+msgid "Go shop"
+msgstr ""
+
+#: dist/woocommerce/myaccount/downloads.php:43
+#: woocommerce/myaccount/downloads.php:43
+msgid "No downloads available yet."
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:27
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:31
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:37
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:38
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:43
+#: dist/woocommerce/myaccount/form-login.php:87
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:87
+msgid "Email address"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:48
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Password change"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:51
+#: woocommerce/myaccount/form-edit-account.php:51
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:55
+#: woocommerce/myaccount/form-edit-account.php:55
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:59
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "Confirm new password"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-account.php:69
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "Save changes"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-address.php:20
+#: dist/woocommerce/myaccount/my-address.php:27
+#: dist/woocommerce/myaccount/my-address.php:32
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+msgid "Billing address"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-address.php:20
+#: dist/woocommerce/myaccount/my-address.php:28
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:28
+msgid "Shipping address"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-edit-address.php:46
+#: woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:38
+msgid "Username or email address"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-login.php:53
+#: woocommerce/myaccount/form-login.php:53
+msgid "Log in"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-login.php:71
+#: dist/woocommerce/myaccount/form-login.php:108
+#: woocommerce/myaccount/form-login.php:71
+#: woocommerce/myaccount/form-login.php:108
+msgid "Register"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-login.php:80
+#: woocommerce/myaccount/form-login.php:80
+msgid "Username"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-login.php:100
+#: woocommerce/myaccount/form-login.php:100
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-lost-password.php:25
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-lost-password.php:38
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-reset-password.php:25
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-reset-password.php:28
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "New password"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-reset-password.php:32
+#: woocommerce/myaccount/form-reset-password.php:32
+msgid "Re-enter new password"
+msgstr ""
+
+#: dist/woocommerce/myaccount/form-reset-password.php:45
+#: woocommerce/myaccount/form-reset-password.php:45
+msgid "Save"
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-address.php:41
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-address.php:57
+#: woocommerce/myaccount/my-address.php:57
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-orders.php:13
+#: woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-orders.php:14
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Date"
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-orders.php:15
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Status"
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-orders.php:30
+#: woocommerce/myaccount/my-orders.php:30
+msgid "Recent orders"
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-orders.php:55
+#: dist/woocommerce/myaccount/orders.php:51
+#: woocommerce/myaccount/my-orders.php:55 woocommerce/myaccount/orders.php:51
+msgid "#"
+msgstr ""
+
+#: dist/woocommerce/myaccount/my-orders.php:67
+#: dist/woocommerce/myaccount/orders.php:63
+#: woocommerce/myaccount/my-orders.php:67 woocommerce/myaccount/orders.php:63
+#, php-format
+msgid "%1$s for %2$s item"
+msgstr ""
+
+#: dist/woocommerce/myaccount/orders.php:103
+#: woocommerce/myaccount/orders.php:103
+msgid "No order has been made yet."
+msgstr ""
+
+#: dist/woocommerce/product-searchform.php:26
+#: woocommerce/product-searchform.php:26
+msgid "Search for:"
+msgstr "ค้นหาสำหรับ:"
+
+#: dist/woocommerce/product-searchform.php:27
+#: woocommerce/product-searchform.php:27
+msgid "Search products&hellip;"
+msgstr ""
+
+#: front-page.php:28
+msgid "Welcome to Thai market in Eslöv"
+msgstr "ยินดีต้อนรับ ร้านไทยมาร์เก็ตในเมืองเอสเหลิฟ สวีเดน"
+
+#: front-page.php:30
+msgid "What are you looking for?"
+msgstr "ต้องการค้นหาอะไร?"
+
+#: loop-templates/content-archive-products.php:20
+#: loop-templates/content-page-new.php:33
+#: loop-templates/content-page-popular.php:36
+#: loop-templates/content-single-product.php:20
+msgid "No image"
+msgstr "ไม่มีภาพสินค้า"
+
+#: loop-templates/content-page-about.php:29
+msgid "Read more"
+msgstr "อ่านเพิ่มเติม"
+
+#: loop-templates/content-page-allergy.php:5
+msgid "Looking for gluten-free products?"
+msgstr "แพ้แป้งสาลี?"
+
+#: loop-templates/content-page-allergy.php:20
+msgid "We have gluten-free products."
+msgstr "เรามีสินค้าที่ไม่มีแป้งสาลีผสม."
+
+#: loop-templates/content-page-new.php:2
+msgid "New products"
+msgstr "สินค้าใหม่"
+
+#: loop-templates/content-page-popular.php:3
+msgid "Most buy products"
+msgstr "สินค้ายอดนิยม"
+
+#: loop-templates/content-page-products-old.php:4
+#: loop-templates/content-page-products.php:4
+msgid "Products"
+msgstr "สินค้าของเรา"
+
+#: loop-templates/content-page-products-old.php:41
+#: loop-templates/content-page-products.php:8
+msgid "Fresh vegetables from Thailand are available on Tuesday."
+msgstr "ผักสดและสินค้าจากประเทศไทยมาทุกวันอังคาร."
+
+#: loop-templates/content-page-products-old.php:42
+#: loop-templates/content-page-products.php:9
+msgid "Other new products are available on Wednesday."
+msgstr "สินค้าแช่แข็งและประเภทอื่นๆมาทุกวันพุธ."
+
+#: loop-templates/content-page-products.php:48
+msgid "All products"
+msgstr "สินค้าทุกประเภท"
+
+#: loop-templates/content-page-promotion.php:6
+msgid "Promotion"
+msgstr "โปรโมชั่น"
+
+#: loop-templates/content-page-recipes.php:3
+msgid "Do you feel like to cook thai food today?"
+msgstr "วันนี้ทำอาหารไทยกันค่ะ?"
+
+#: loop-templates/content-page-recipes.php:4
+msgid "We have some recipes for you."
+msgstr "เรามีเมนูอาหารให้คุณ."
+
+#: loop-templates/content-single-product.php:65
+msgid "Description"
+msgstr "เกี่ยวกับสินค้า"
+
+#: loop-templates/content-single-product.php:70
+msgid "Category"
+msgstr "หมวดหมู่สินค้า"
+
+#: node_modules/gulp/node_modules/yargs-parser/index.js:301
+#: node_modules/sass-graph/node_modules/yargs-parser/index.js:301
+#: node_modules/yargs-parser/index.js:301
+#, javascript-format
+msgid "Not enough arguments following: %s"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs-parser/index.js:449
+#: node_modules/sass-graph/node_modules/yargs-parser/index.js:449
+#: node_modules/yargs-parser/index.js:449
+#, javascript-format
+msgid "Invalid JSON config file: %s"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:169
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:161
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:169
+#: node_modules/yargs/lib/usage.js:158
+msgid "Commands:"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:177
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:407
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:380
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:177
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:407
+#: node_modules/yargs/lib/usage.js:376
+msgid "default:"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:179
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:169
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:179
+#: node_modules/yargs/lib/usage.js:166
+msgid "aliases:"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:241
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:228
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:241
+#: node_modules/yargs/lib/usage.js:225
+msgid "boolean"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:242
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:229
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:242
+#: node_modules/yargs/lib/usage.js:226
+msgid "count"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:243
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:244
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:230
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:231
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:243
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:244
+#: node_modules/yargs/lib/usage.js:227 node_modules/yargs/lib/usage.js:228
+msgid "string"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:245
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:232
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:245
+#: node_modules/yargs/lib/usage.js:229
+msgid "array"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:246
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:233
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:246
+#: node_modules/yargs/lib/usage.js:230
+msgid "number"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:250
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:237
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:250
+#: node_modules/yargs/lib/usage.js:234
+msgid "required"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:251
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:238
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:251
+#: node_modules/yargs/lib/usage.js:235
+msgid "choices:"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:270
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:257
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:270
+#: node_modules/yargs/lib/usage.js:254
+msgid "Examples:"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/usage.js:385
+#: node_modules/localtunnel/node_modules/yargs/lib/usage.js:358
+#: node_modules/sass-graph/node_modules/yargs/lib/usage.js:385
+#: node_modules/yargs/lib/usage.js:354
+msgid "generated-value"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:26
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:49
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:26
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:49
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:26
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:49
+#: node_modules/yargs/lib/validation.js:22
+#: node_modules/yargs/lib/validation.js:37
+#, javascript-format
+msgid "Not enough non-option arguments: got %s, need at least %s"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:37
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:37
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:37
+#: node_modules/yargs/lib/validation.js:26
+#, javascript-format
+msgid "Too many non-option arguments: got %s, maximum of %s"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:185
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:183
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:185
+#: node_modules/yargs/lib/validation.js:171
+msgid "Invalid values:"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:188
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:186
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:188
+#: node_modules/yargs/lib/validation.js:174
+#, javascript-format
+msgid "Argument: %s, Given: %s, Choices: %s"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:218
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:212
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:218
+#: node_modules/yargs/lib/validation.js:200
+#, javascript-format
+msgid "Argument check failed: %s"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:283
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:276
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:283
+#: node_modules/yargs/lib/validation.js:270
+msgid "Implications failed:"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:313
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:305
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:313
+#, javascript-format
+msgid "Arguments %s and %s are mutually exclusive"
+msgstr ""
+
+#: node_modules/gulp/node_modules/yargs/lib/validation.js:332
+#: node_modules/localtunnel/node_modules/yargs/lib/validation.js:324
+#: node_modules/sass-graph/node_modules/yargs/lib/validation.js:332
+#: node_modules/yargs/lib/validation.js:294
+#, javascript-format
+msgid "Did you mean %s?"
+msgstr "คุณหมายถึง %s?"
+
+#: node_modules/undescores-for-npm/comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: node_modules/undescores-for-npm/comments.php:43
+#: node_modules/undescores-for-npm/comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: node_modules/undescores-for-npm/comments.php:44
+#: node_modules/undescores-for-npm/comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: node_modules/undescores-for-npm/footer.php:18
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: node_modules/undescores-for-npm/functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: node_modules/undescores-for-npm/functions.php:90
+msgid "Sidebar"
+msgstr ""
+
+#: node_modules/undescores-for-npm/functions.php:92
+msgid "Add widgets here."
+msgstr ""
+
+#: node_modules/undescores-for-npm/inc/template-tags.php:28
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: node_modules/undescores-for-npm/inc/template-tags.php:33
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: node_modules/undescores-for-npm/inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: node_modules/undescores-for-npm/inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: node_modules/undescores-for-npm/inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: node_modules/undescores-for-npm/search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "ผลการค้นหาสำหรับ: %s"
+
+#: node_modules/undescores-for-npm/template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "ขออภัยไม่มีอะไรตรงกับข้อความค้นหาของคุณ โปรดลองอีกครั้งด้วยคำหลักที่แตกต่างกัน."
+
+#: node_modules/undescores-for-npm/template-parts/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: sidebar-templates/sidebar-new.php:43
+#: sidebar-templates/sidebar-popular.php:42
+msgid "Produktbild saknas"
+msgstr ""

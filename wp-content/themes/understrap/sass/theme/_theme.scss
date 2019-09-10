@@ -52,6 +52,30 @@ body {
 
 }
 
+//404 page
+.error-404 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(http://eslovthaimarket.se/wp-content/themes/understrap/img/rice1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    margin: 2em 0 5em 0;
+
+    .page-header {
+        color: $background;
+    }
+
+    .page-content {
+        p {
+            color: $background;
+        }
+    }
+}
+
 @media (min-width: 768px) {
     #page-wrapper {
         padding: 1em;

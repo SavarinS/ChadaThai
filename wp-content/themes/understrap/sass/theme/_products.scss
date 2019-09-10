@@ -16,7 +16,7 @@
         display:flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         flex-direction: row;
       
 
@@ -72,8 +72,8 @@
     align-items: center;
 
         a{
-            .nya-produkter {
-                background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/beverage-cans.jpg);
+            .product-new-pop {
+                background-image: url(http://eslovthaimarket.se/wp-content/themes/understrap/img/beverage-cans.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 min-height: 18vh;
@@ -84,18 +84,7 @@
                 border-radius:10px;
                 width:40vw;
             }
-            .populara-produkter {
-                background-image: url(http://localhost/eslovthaimarket/wp-content/themes/understrap/img/frozen.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                min-height: 18vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                border-radius:10px;
-                width:40vw;
-            }
+          
             .new-title {
                 background-color: $primary;
                 width: 100%;
@@ -166,7 +155,11 @@
         justify-content: center;
         
         .item {
-            width: 30vw;
+            width: 23vw;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
         }
        
     }
@@ -204,7 +197,7 @@
 
             .section-product {
                 a {
-                    .nya-produkter, .populara-produkter {
+                    .product-new-pop{
                             width:26vw;
                             margin: 1em;
                     }
@@ -265,7 +258,7 @@
             .products-new-pop {
                 .section-product {
                     a{
-                        .nya-produkter, .populara-produkter {
+                        .product-new-pop {
                             height: 22vh;
                         }
                     }

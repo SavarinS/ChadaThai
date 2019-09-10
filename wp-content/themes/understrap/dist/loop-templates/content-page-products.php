@@ -1,37 +1,43 @@
 <!-- Template display all products in front page  -->
 <div class="container-products">
 	<div class="products-page-title">
-		<h5><?php _e('Våra produkter'); ?></h5>
+		<h5><?php _e('Products', 'understrap'); ?></h5>
 	</div>
 
 	<div class="basic-info-product">
-		<h6><?php _e('Färska grönsaker kommer på tisdag'); ?></h6>
-		<h6><?php _e('Fresh frozen products and other every Wednesday.'); ?></h6>
+		<h6><?php _e('Fresh vegetables from Thailand are available on Tuesday.', 'understrap'); ?></h6>
+		<h6><?php _e('Other new products are available on Wednesday.', 'understrap'); ?></h6>
 	</div>
 	<div class="items-product">
-		<div class="noodle item">
-			<p><?php _e('Nudlar'); ?></p>
-		</div>
-		<div class="coconutsmilk item">
-			<p><?php _e('Kokosmjölk'); ?></p>
-		</div>
-		<div class="frozen item">
-		<p><?php _e('Djupfrysning'); ?></p>
-		</div>
+		
 
-		<div class="curry item">
-			<p><?php _e('Currypasta'); ?></p>
-		</div>
+		<?php $terms = get_terms( array(
+				'taxonomy' => 'products_cat',
+				//'hide_empty' => false,
+				'include' => array(93, 103, 91, 72, 97, 67) //include new products cat and popular products cat
+				//sv = 93, 103, 91,72, 97, 67
+				//en = 159, 167
+				//th = 163, 133
+			) ); ?>
 
-		<div class="sauce item">
-			<p><?php _e('Sås'); ?></p>
-		</div>
-
-		<div class="spice item">
-
-			<p><?php _e('Kryddor'); ?></p>
-			
-		</div>
+			<?php if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
+				
+				foreach ( $terms as $term ) : ?>
+				<div class="item" >
+					<a href="<?php echo  get_term_link( $term ); ?>">
+						
+					
+							
+							<p><?php echo $term->name; ?></p>		
+							
+						
+					</a>
+				</div>
+					
+						
+				
+			<?php endforeach; ?> 
+			<?php } ?>
 		
 	</div>
 	
@@ -39,7 +45,7 @@
 	
 	<div class="see-all-products">
 
-		<a href="<?php echo get_post_type_archive_link( 'products' ); ?>"><?php _e('Alla produkter'); ?></a>
+		<a href="<?php echo get_post_type_archive_link( 'products' ); ?>"><?php _e('All products', 'understrap'); ?></a>
 	
 		
 	</div>

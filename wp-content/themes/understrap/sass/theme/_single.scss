@@ -1,5 +1,16 @@
 #single-wrapper {
-    
+    .no-image {
+        background-color: $background;
+        width: 100%;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    border-radius:10px;
+
+    p{
+        margin-bottom: 0;
+    }
+    }
     
   .sect2 {
       margin:1em;
@@ -102,10 +113,23 @@
     .single-post {
         display: flex;
         justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 2em;
 
     
     }
+
+    .sect2 {
+        width:50vw;
+        padding: 0;
+        margin: 0 3em;
+    }
+
+    .no-image {
+        margin: 0;
+    }
+
+    
 }
 }
 

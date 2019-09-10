@@ -32,17 +32,17 @@ defined( 'ABSPATH' ) || exit;
 		<?php elseif ( is_search() ) : ?>
 
 			<p><?php //esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'understrap' ); ?></p>
-			<p><?php _e('Vi hittade tyvärr inga produkter som matchade din sökning.') ?></p>
-			<p><?php _e('Söktips:') ?></p>
+			<p><?php _e('Vi hittade tyvärr inga produkter som matchade din sökning', 'understrap') ?></p>
+			<p><?php _e('Söktips:', 'understrap') ?></p>
 			<p><?php _e('Kontrollera att alla ord är rättstavade
-Använd en stjärna (*) för att utöka din sökning, till exempel i slutet på ditt sökord.') ?></p>
+Använd en stjärna (*) för att utöka din sökning, till exempel i slutet på ditt sökord', 'understrap') ?></p>
 
 
 			<?php
 				//get_search_form();
 		else : ?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'understrap' ); ?></p>
+			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help', 'understrap' ); ?></p>
 			<?php
 				get_search_form();
 		endif; ?>

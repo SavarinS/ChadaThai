@@ -26,14 +26,14 @@
 					<!-- .entry-content -->
 					<!-- display button with a link  -->
 					<div class="more-about">
-						<a href="<?php echo get_permalink( 32 ); ?>"><?php _e( 'Läs om oss' ); ?></a>
+						<a href="<?php echo get_permalink( 32 ); ?>"><?php _e( 'Read more', 'understrap' ); ?></a>
 					</div>
 				</div><!-- div.about-info -->			
 		<?php endwhile; ?>
 		<!-- end of the loop -->
 		<?php else : ?>
 		<!-- if not page  -->
-			<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+			<p><?php _e( 'Sorry, no posts matched your criteria', 'understrap' ); ?></p>
 		<?php endif; ?>
 
 	</div><!-- container-about -->

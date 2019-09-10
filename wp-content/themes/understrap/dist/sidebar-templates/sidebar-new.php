@@ -13,7 +13,7 @@
 		$the_query = new WP_Query( array( 
 			'post_type' => 'products',
 			'post_status' => 'publish',
-			'posts_per_page' => 6,
+			'posts_per_page' => 5,
 			'orderby' => 'modified',
 			'tax_query' => array(
 				array(
@@ -30,22 +30,31 @@
 		<?php if ( $the_query->have_posts() ) : ?>
 			<!-- the loop -->
 			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+			
 				<div class="product-item">
 					<a href="<?php echo get_permalink( $post->ID ); ?>">
 						<div class="product-image">
-							<?php the_post_thumbnail('thumbnail'); ?>
-						</div>
+							<?php if(has_post_thumbnail()) { ?>
+							
+								<?php echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
+							
+							<?php } else { ?>
+							<div class="no-image">
+								<p><?php _e('Produktbild saknas'); ?></p>
+							</div> <!-- .no-image -->
+						<?php } ?>
+							
+						</div> <!-- .product-image -->
 						<div class="product-title">
 							<h6><?php the_title(); ?></h6>
 						</div>
-						<?php //the_terms(get_the_ID(), 'products_cat'); ?>
 					</a>
 				</div><!-- end .product -->	
 			<?php endwhile; ?>
 		<!-- end of the loop -->
 			<?php else : ?>
-			<p>Products</p>
-				<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+			
+				<p><?php _e( 'Sorry, no posts matched your criteria' ); ?></p>
 			<?php endif; ?>
 			
 			</div>

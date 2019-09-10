@@ -1,7 +1,8 @@
 <?php
 /**
- * The template for displaying archive pages.
- *
+ * The template for displaying products category in custome taxonomy.
+ * Display products in each taxonomy.
+ * The template gets archive content.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package understrap
@@ -17,15 +18,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php get_template_part( 'global-templates/hero-search' ); ?>
 <div class="wrapper" id="archive-wrapper">
 
+	<?php if ( have_posts() ) : ?>
 
-				<?php if ( have_posts() ) : ?>
-
-					<header class="page-header">
-						<!-- <p>taxonomy.php</p> -->
-						<?php
-						the_archive_title( '<h6 class="page-title">', '</h6>' );
-						the_archive_description( '<div class="taxonomy-description">', '</div>' );
-						?>
+		<header class="page-header">
+			<!-- <p>taxonomy.php</p> -->
+			<?php
+				the_archive_title( '<h5 class="page-title">', '</h5>' );
+				the_archive_description( '<div class="taxonomy-description">', '</div>' );
+			?>
 					</header><!-- .page-header -->
 					<div class="entry-taxonomy">
 						<?php /* Start the Loop */ ?>
@@ -39,10 +39,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 							* called content-___.php (where ___ is the Post Format name) and that will be used instead.
 							*/
 							get_template_part( 'loop-templates/content', 'archive-products' );
-							?>
-
-							<?php 
-							//get_template_part( 'loop-templates/content', 'page-products' );
 							?>
 
 						<?php endwhile; ?>

@@ -16,8 +16,8 @@ if (is_single() ){
 	<!-- get post title -->
 		<header class="entry-header-cooking">
 
-			<?php the_title( '<h4 class="entry-title">', '</h4>' ); ?>
-			<?php echo get_the_post_thumbnail( $post->ID, 'medium' ); ?>
+			<?php the_title( '<h5 class="entry-title">', '</h5>' ); ?>
+			<?php echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
 		<?php 
 			$videos = get_field('video');
 			echo $videos

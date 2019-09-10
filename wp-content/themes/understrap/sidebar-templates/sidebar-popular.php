@@ -1,6 +1,6 @@
 <?php
 /**
- * Show new products at the bottom of single products
+ * Show popular products at the bottom of single products
  *
  * @package understrap
  */
@@ -33,7 +33,15 @@
 				<div class="product-item">
 					<a href="<?php echo get_permalink( $post->ID ); ?>">	
 						<div class="product-image">
-							<?php the_post_thumbnail('thumbnail'); ?>
+							<?php if(has_post_thumbnail()) { ?>
+								
+								<?php echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
+							
+							<?php } else { ?>
+							<div class="no-image">
+								<p><?php _e('Produktbild saknas'); ?></p>
+							</div> <!-- .no-image -->
+					<?php } ?>
 						</div>
 						<div class="product-title">
 							<h6><?php the_title(); ?></h6>
@@ -44,7 +52,7 @@
 		<?php endwhile; ?>
 		<!-- end of the loop -->
 		<?php else : ?>
-			<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+			<p><?php _e( 'Sorry, no posts matched your criteria' ); ?></p>
 		<?php endif; ?>
 		<!-- end main-new-products -->
 		</div> 

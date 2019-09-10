@@ -12,22 +12,32 @@
         flex-wrap: wrap;
             align-items: center;
             justify-content: center;
-        .new-product {        
+        a {        
             background-color: $background;
             width: 100vw;
             padding:0.5em;
-            display: flex;
+            border-radius: 10px;
+
+            .new-product {
+                display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 10px;
-    
+
             .new-product-image {
                 width:25vw;
+                .no-image {
+                    p {
+                        font-size: 10px;
+                    }
+                }
             }
     
             .new-product-title {
                 width:40vw;
             }
+            }
+    
+           
     
            
         }
@@ -44,12 +54,19 @@
             flex-direction: row;
             a{
                 margin: 0.5em;
+                width: 15vw;
             .new-product {
                 flex-direction: column;
-                    width: 15vw;
+                    
 
                     .new-product-image {
                         width: auto;
+
+                        .no-image {
+                            p {
+                                font-size: 1em;
+                            }
+                        }
                     }
                     .new-product-title {
                         width: auto;
@@ -61,15 +78,5 @@
 }
 
 @media (min-width: 1204px) {
-    .container-new-products {
-       
-        .main-new-products {
-            
-
-            .new-product {
-               
-                width: 15vw;
-            }
-        }
-    }
+  
 }

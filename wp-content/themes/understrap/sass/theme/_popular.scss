@@ -8,31 +8,35 @@
     background-color: $background;
 
     .main-new-products{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
 
-        .product {
+        a {
  
             background-color: $background;
             padding: 0.5em;
             width:100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             border-radius: 10px;
+
+            .product {
+                display: flex;
+                align-items: center;
+                .product_title {
+                    width:40vw;
+    
+                }
+    
+                .product_image {
+                    width: 25vw;
+
+                    .no-image {
+                        p {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
             
 
-            .product_title {
-                width:40vw;
-
-            }
-
-            .product_image {
-                width: 25vw;
-            }
+          
 
     }
 }
@@ -44,18 +48,25 @@
         background-color: transparent;
         
         .main-new-products {
-           flex-direction: row;
-           align-items: baseline;
+           display: flex;
+           flex-wrap: wrap;
 
             a{
                 margin: 0.8em;
+                width: 15vw;
+                
 
                 .product {
                     flex-direction: column;
-                    width: 15vw;
      
                     .product_image {
                         width: auto;
+
+                        .no-image {
+                            p {
+                                font-size: 1em;
+                            }
+                        }
                     }
                     .product_title {
                         width: auto;
@@ -73,14 +84,6 @@
     .container-popular-products {
        padding: 0;
        margin: 2em;
-        .main-new-products {
-            
-
-            .product {
-                width: 15vw;
-                
-            }
-
-        }
+      
     }
 }

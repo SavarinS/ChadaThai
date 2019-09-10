@@ -10,52 +10,77 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <article class="single-post">
+	<div class="post-image">
+		<?php if(has_post_thumbnail()) { ?>
+			<div class="search-image">
+				<?php echo get_the_post_thumbnail( $post->ID, 'medium' ); ?>
+			</div><!-- .search-image -->
+		<?php } else { ?>
+			<div class="no-image">
+				<p><?php _e('No image', 'understrap'); ?></p>
+			</div> <!-- .no-image -->
+		<?php } ?>
 	
-
-		<div class="post-image">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-					<?php echo get_the_post_thumbnail( $post->ID, 'medium' ); ?>
-					</div>
-					<div class="carousel-item">
-					<?php $image1 = get_field('description_image_1'); echo $image1?>
-					</div>
-					<div class="carousel-item">
-					<?php $image2 = get_field('description_image_2'); echo $image2?>
-					</div>
-				</div>
-				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-			
-		</div>
+	</div> <!-- .post-image -->
 
 	<div class="sect2">
 
 		<div class="entry-title-single">
 			<?php the_title( '<h5 class="entry-title">', '</h5>' ); ?>
-		</div><!-- .entry-content -->
+		</div><!-- .entry-title-single -->
 
 		<div class="entry-info-single">
-			<?php the_content(); ?>
-			<p><strong>Vikt: </strong><?php $size = get_field('size'); echo $size?></p>
-			<p><strong>Varumär: </strong><?php $brand = get_field('brand'); echo $brand?></p>
-			<p><strong>Ursprung: </strong><?php $land = get_field('country'); echo $land?></p>
-			<p><strong>Produktbeskrivning: </strong><?php $land = get_field('product_description'); echo $land?></p>
-			<p><strong>Kategori: </strong><?php the_terms(get_the_ID(), 'products_cat'); ?></p>
+			<!-- If post has brand  -->
+			<?php 
+				$content = get_the_content();
+				if (!empty($content)) { ?>
+					<?php echo $content?>
+				<?php } ?>
+			
+				<!-- If post has weight  -->
+			<?php 
+				$size = get_field('size');
+				if (!empty($size)) { ?>
+					<p><?php echo $size?></p>
+				<?php } ?>
 
+			<!-- If post has brand  -->
+			<?php 
+				$brand = get_field('brand');
+				if (!empty($brand)) { ?>
+					<p><?php echo $brand?></p>
+				<?php } ?>
+
+			<!-- If post has country  -->
+			<?php 
+				$land = get_field('country');
+				if (!empty($land)) { ?>
+					<p><?php echo $land?></p>
+				<?php } ?>
+
+			<!-- If post has description  -->
+			<?php 
+				$des = get_field('product_description');
+				if (!empty($des)) { ?>
+					<p><strong><?php _e('Description', 'understrap'); ?>: </strong><?php echo $des?></p>
+					
+				<?php } ?>
+
+			<!-- If post has category  -->
+			<p><?php _e('Category', 'understrap'); ?>: 
+			
+			<?php 
+				$cats = get_the_terms(get_the_ID(), 'products_cat');
+				if (!empty($cats)) { ?>
+					<?php 
+						foreach ( $cats as $cat ) : ?>
+						<a href="<?php echo  get_term_link( $cat); ?>">		
+							<?php echo $cat->name; ?>
+						</a>
+
+					<?php endforeach; ?> 
+				<?php } ?>
+				</p>
 		</div>
 		<?php
 		wp_link_pages(

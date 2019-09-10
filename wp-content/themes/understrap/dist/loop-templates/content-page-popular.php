@@ -1,6 +1,6 @@
 <!-- Template display most buy products in front page  -->
 <div class="container-popular-products">
-	<h5><?php _e( 'Våra populära produkter' ); ?></h5>
+	<h5><?php _e( 'Most buy products', 'understrap' ); ?></h5>
 	
 	<!-- wp_query to sort out taxonomy popular_products in cutome post type products  -->
 	<?php 
@@ -25,10 +25,18 @@
 			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 				
 					<a href="<?php echo get_permalink( $post->ID ); ?>">
-					<div class="product">	
-						<div class="product_image">
-							<?php the_post_thumbnail('thumbnail'); ?>
-						</div>
+						<div class="product">	
+							<div class="product_image">
+								<?php if(has_post_thumbnail()) { ?>
+									<div class="missing-image">
+										<?php echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
+									</div><!-- .search-image -->
+								<?php } else { ?>
+									<div class="no-image">
+										<p><?php _e('No image', 'understrap'); ?></p>
+									</div> <!-- .no-image -->
+								<?php } ?>
+							</div>
 						<div class="product_title">
 							<h6><?php the_title(); ?></h6>
 						</div><!-- end .product-title -->
@@ -39,7 +47,7 @@
 		<?php endwhile; ?>
 		<!-- end of the loop -->
 		<?php else : ?>
-			<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+			<p><?php _e( 'Sorry, no posts matched your criteria', 'understrap' ); ?></p>
 		<?php endif; ?>
 		<!-- end main-new-products -->
 		</div> 
