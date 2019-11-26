@@ -1,22 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-09-10 15:17+0200\n"
-"PO-Revision-Date: 2019-09-10 15:25+0200\n"
+"POT-Creation-Date: 2019-10-07 15:07+0200\n"
+"PO-Revision-Date: 2019-10-07 15:19+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-KeywordsList: _e;__;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
 "esc_html__;esc_html_e;esc_html_x\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
 
-#: 404.php:30
+#: 404.php:30 dist/404.php:30
 msgid "Oops! That page can&rsquo;t be found"
 msgstr "ไม่พบหน้าที่ท่านต้องการ"
 
@@ -45,14 +46,14 @@ msgstr "โปร์ไฟล์"
 #: author.php:74 category-old.php:74 dist/author.php:74
 #: dist/category-old.php:74
 msgid "Permanent Link:"
-msgstr ""
+msgstr "ลิงค์ถาวร:"
 
 #: author.php:79 category-old.php:79 dist/author.php:79
 #: dist/category-old.php:79
 msgid "in"
-msgstr ""
+msgstr "ใน"
 
-#: category.php:18
+#: category.php:18 dist/category.php:18
 msgid "Do you want to cook thai food today?"
 msgstr "วันนี้ทำอาหารกันไหมค่ะ?"
 
@@ -72,7 +73,7 @@ msgstr "แก้ไข"
 #: comments.php:37 dist/comments.php:37
 #, php-format
 msgid "One thought on &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "ความคิดหนึ่งใน &ldquo;%s&rdquo;"
 
 #: comments.php:44 dist/comments.php:44
 #, php-format
@@ -98,53 +99,35 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: dist/404.php:30 node_modules/undescores-for-npm/404.php:17
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "ไม่พบหน้าที่ท่านต้องการ."
+#: dist/front-page.php:28 front-page.php:28
+msgid "Welcome to Thai market in Eslöv"
+msgstr "ยินดีต้อนรับ ร้านไทยมาร์เก็ตในเมืองเอสเหลิฟ สวีเดน"
 
-#: dist/404.php:46 node_modules/undescores-for-npm/404.php:33
-msgid "Most Used Categories"
-msgstr "หมวดหมู่ที่ถูกใช้มากที่สุด"
-
-#: dist/404.php:69 node_modules/undescores-for-npm/404.php:51
-#, php-format
-msgid "Try looking in the monthly archives. %1$s"
-msgstr "ดูโพสประจำเดือน  %1$s"
-
-#: dist/category.php:18 dist/global-templates/hero-inspiration.php:3
-#: global-templates/hero-inspiration.php:3
-msgid "Vill du laga thaimat idag?"
-msgstr ""
-
-#: dist/front-page.php:27
-msgid "Välkommen till Thai market i Eslöv"
-msgstr ""
-
-#: dist/front-page.php:30
-msgid "Vad letar du efter?"
-msgstr ""
+#: dist/front-page.php:30 front-page.php:30
+msgid "What are you looking for?"
+msgstr "ต้องการค้นหาอะไร?"
 
 #: dist/functions.php:59 dist/functions.php:66 functions.php:59
 #: functions.php:66
 msgid "Produkter"
-msgstr ""
+msgstr "สินค้า"
 
 #: dist/functions.php:60 functions.php:60
 msgid "Produkt"
-msgstr ""
+msgstr "สินค้า"
 
 #: dist/functions.php:61 functions.php:61
 msgid "Produkt bild"
-msgstr ""
+msgstr "ภาพสินค้า"
 
 #: dist/functions.php:62 functions.php:62
 msgid "Product archives"
 msgstr "ประเภทของสินค้า"
 
-#: dist/functions.php:101 dist/functions.php:102 dist/functions.php:106
+#: dist/functions.php:102 dist/functions.php:103 dist/functions.php:107
 #: functions.php:102 functions.php:103 functions.php:107
 msgid "Produkter Kategori"
-msgstr ""
+msgstr "สินค้า"
 
 #: dist/global-templates/hero-about.php:5
 #: dist/global-templates/hero-contact.php:6
@@ -152,12 +135,17 @@ msgstr ""
 #: global-templates/hero-about.php:5 global-templates/hero-contact.php:6
 #: global-templates/hero-inspiration.php:6
 msgid "Sök produkter eller recepter"
-msgstr ""
+msgstr "ค้นหาสินค้าหรือผลิตภัณฑ์"
+
+#: dist/global-templates/hero-inspiration.php:3
+#: global-templates/hero-inspiration.php:3
+msgid "Vill du laga thaimat idag?"
+msgstr "วันนี้ทำอาหารกันไหมค่ะ?"
 
 #: dist/header.php:33 header.php:33
 #: node_modules/undescores-for-npm/header.php:24
 msgid "Skip to content"
-msgstr "ข้ามไปยังเนื้อหาถัดไป"
+msgstr "ข้าม"
 
 #: dist/header.php:66 header.php:66
 msgid "Toggle navigation"
@@ -274,7 +262,7 @@ msgstr ""
 #: dist/inc/hooks.php:45 inc/hooks.php:45
 #, php-format
 msgid "Version: %1$s"
-msgstr ""
+msgstr "เวอร์ชั่น %1$s"
 
 #: dist/inc/pagination.php:24 inc/pagination.php:24
 msgid "&laquo;"
@@ -286,16 +274,16 @@ msgstr ""
 
 #: dist/inc/pagination.php:26 inc/pagination.php:26
 msgid "Posts navigation"
-msgstr ""
+msgstr "เขียนโดย"
 
 #: dist/inc/setup.php:48 inc/setup.php:48
 #: node_modules/undescores-for-npm/header.php:44
 msgid "Primary Menu"
-msgstr ""
+msgstr "ค้นหาสินค้าหรือเมนู "
 
 #: dist/inc/setup.php:134 inc/setup.php:134
 msgid "Read More..."
-msgstr "อ่านเพิ่มเติม."
+msgstr "อ่านเพิ่มเติม ..."
 
 #: dist/inc/template-tags.php:31 inc/template-tags.php:31
 msgid "Posted on"
@@ -319,7 +307,7 @@ msgstr ""
 #: dist/inc/template-tags.php:60 inc/template-tags.php:60
 #, php-format
 msgid "Posted in %s"
-msgstr ""
+msgstr "เขียนเมื่อวันที่ %s"
 
 #: dist/inc/template-tags.php:66 inc/template-tags.php:66
 #, php-format
@@ -343,7 +331,7 @@ msgstr ""
 #: node_modules/undescores-for-npm/template-parts/content-page.php:34
 #, php-format
 msgid "Edit %s"
-msgstr ""
+msgstr "แก้ไข %s"
 
 #: dist/inc/widgets.php:100 inc/widgets.php:100
 msgid "Right Sidebar"
@@ -393,14 +381,24 @@ msgstr ""
 msgid "Full sized footer widget with dynamic grid"
 msgstr ""
 
-#: dist/loop-templates/content-archive-products.php:39
+#: dist/loop-templates/content-archive-products.php:20
+#: dist/loop-templates/content-page-new.php:33
+#: dist/loop-templates/content-page-popular.php:36
+#: dist/loop-templates/content-single-product.php:20
+#: loop-templates/content-archive-products.php:20
+#: loop-templates/content-page-new.php:33
+#: loop-templates/content-page-popular.php:36
+#: loop-templates/content-single-product.php:20
+msgid "No image"
+msgstr "ไม่มีภาพสินค้า"
+
 #: dist/loop-templates/content-archive.php:47
 #: dist/loop-templates/content-front-page.php:68
 #: dist/loop-templates/content-page-about-us.php:31
 #: dist/loop-templates/content-page-contact.php:42
 #: dist/loop-templates/content-page.php:29
 #: dist/loop-templates/content-single-post.php:46
-#: dist/loop-templates/content-single-product.php:49
+#: dist/loop-templates/content-single-product.php:88
 #: dist/loop-templates/content-single.php:36 dist/loop-templates/content.php:42
 #: loop-templates/content-archive.php:47
 #: loop-templates/content-front-page.php:68
@@ -412,7 +410,7 @@ msgstr ""
 #: node_modules/undescores-for-npm/template-parts/content-page.php:22
 #: node_modules/undescores-for-npm/template-parts/content.php:38
 msgid "Pages:"
-msgstr ""
+msgstr "หน้า: "
 
 #: dist/loop-templates/content-none.php:17 loop-templates/content-none.php:17
 #: node_modules/undescores-for-npm/template-parts/content-none.php:14
@@ -426,117 +424,139 @@ msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "ต้องการลงโพสไหม <a href=“%1$s”>กดที่นี่</a>."
 
-#: dist/loop-templates/content-none.php:35
-msgid "Vi hittade tyvärr inga produkter som matchade din sökning."
-msgstr "ขออภัยเราไม่พบผลิตภัณฑ์ใด ๆ ที่ตรงกับการค้นหาของคุณ."
+#: dist/loop-templates/content-none.php:35 loop-templates/content-none.php:35
+msgid "Vi hittade tyvärr inga produkter som matchade din sökning"
+msgstr "ขออภัยเราไม่พบผลิตภัณฑ์ใด ๆ ที่ตรงกับการค้นหาของคุณ"
 
 #: dist/loop-templates/content-none.php:36 loop-templates/content-none.php:36
 msgid "Söktips:"
 msgstr "เคล็ดลับการค้นหา:"
 
-#: dist/loop-templates/content-none.php:37
+#: dist/loop-templates/content-none.php:37 loop-templates/content-none.php:37
 msgid ""
 "Kontrollera att alla ord är rättstavade\n"
 "Använd en stjärna (*) för att utöka din sökning, till exempel i slutet på "
-"ditt sökord."
+"ditt sökord"
 msgstr ""
 "ตรวจสอบให้แน่ใจว่าสะกดทุกคำอย่างถูกต้อง\n"
-"ใช้เครื่องหมายดอกจัน (*) เพื่อขยายการค้นหาตัวอย่างเช่นในตอนท้ายของข้อความค้นหาของคุณ."
+"ใช้เครื่องหมายดอกจัน (*) เพื่อขยายการค้นหาตัวอย่างเช่นในตอนท้ายของข้อความค้นหาของคุณ"
 
-#: dist/loop-templates/content-none.php:45
-#: node_modules/undescores-for-npm/template-parts/content-none.php:31
+#: dist/loop-templates/content-none.php:45 loop-templates/content-none.php:45
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr "ไม่พบข้อมูลที่ค้นหา จะลองใช้การเครื่องมือการค้นหา."
+"searching can help"
+msgstr "ไม่พบเจอสิ่งที่ต้องการหา ค้นหาใหม่"
 
 #: dist/loop-templates/content-page-about.php:29
-msgid "Läs om oss"
-msgstr ""
+#: loop-templates/content-page-about.php:29
+msgid "Read more"
+msgstr "อ่านเพิ่มเติม"
 
 #: dist/loop-templates/content-page-about.php:36
 #: dist/loop-templates/content-page-cooking.php:43
 #: dist/loop-templates/content-page-location.php:31
-#: dist/loop-templates/content-page-new.php:39
-#: dist/loop-templates/content-page-popular.php:42
-#: dist/loop-templates/content-page-promotion.php:29
-#: dist/sidebar-templates/sidebar-new.php:48
-#: dist/sidebar-templates/sidebar-popular.php:47
-msgid "Sorry, no posts matched your criteria."
-msgstr "ขออภัยไม่มีโพสที่ตรงกับเกณฑ์การค้นหาของคุณ."
-
-#: dist/loop-templates/content-page-allergy.php:4
-msgid "Är du allergisk mot mjölk, ägg, nötter eller vete?"
-msgstr ""
+#: dist/loop-templates/content-page-new.php:47
+#: dist/loop-templates/content-page-popular.php:50
+#: dist/loop-templates/content-page-promotion.php:30
+#: dist/sidebar-templates/sidebar-new.php:57
+#: dist/sidebar-templates/sidebar-popular.php:55
+#: loop-templates/content-page-about.php:36
+#: loop-templates/content-page-cooking.php:43
+#: loop-templates/content-page-location.php:31
+#: loop-templates/content-page-new.php:47
+#: loop-templates/content-page-popular.php:50
+#: loop-templates/content-page-promotion.php:30
+#: sidebar-templates/sidebar-new.php:57
+#: sidebar-templates/sidebar-popular.php:55
+msgid "Sorry, no posts matched your criteria"
+msgstr "ขออภัยไม่มีโพสที่ตรงกับเกณฑ์การค้นหาของคุณ"
 
 #: dist/loop-templates/content-page-allergy.php:5
-msgid "Kolla här"
-msgstr ""
+#: loop-templates/content-page-allergy.php:5
+msgid "Looking for gluten-free products?"
+msgstr "ต้องการผลิตภัณฑ์ที่ไม่มีแป้งสาลีผสม?"
+
+#: dist/loop-templates/content-page-allergy.php:20
+#: loop-templates/content-page-allergy.php:20
+msgid "We have gluten-free products"
+msgstr "ร้านเรามีผลิตภัณฑ์ที่ไม่มีแป้งสาลีผสม"
 
 #: dist/loop-templates/content-page-contact.php:28
 #: loop-templates/content-page-contact.php:28
 msgid "Hitta oss"
-msgstr ""
+msgstr "ติดต่อเรา"
 
 #: dist/loop-templates/content-page-new.php:2
-#: dist/sidebar-templates/sidebar-new.php:10
-#: sidebar-templates/sidebar-new.php:10
-msgid "Våra nya produkter"
-msgstr ""
+#: loop-templates/content-page-new.php:2
+msgid "New products"
+msgstr "สินค้าใหม่"
 
 #: dist/loop-templates/content-page-popular.php:3
-#: dist/sidebar-templates/sidebar-popular.php:10
-#: sidebar-templates/sidebar-popular.php:10
-msgid "Våra populära produkter"
-msgstr ""
+#: loop-templates/content-page-popular.php:3
+msgid "Most buy products"
+msgstr "สินค้ายอดนิยม"
 
 #: dist/loop-templates/content-page-products-old.php:4
 #: dist/loop-templates/content-page-products.php:4
-msgid "Våra produkter"
-msgstr ""
+#: loop-templates/content-page-products-old.php:4
+#: loop-templates/content-page-products.php:4
+msgid "Products"
+msgstr "สินค้าของเรา"
 
-#: dist/loop-templates/content-page-products-old.php:8
+#: dist/loop-templates/content-page-products-old.php:41
+#: loop-templates/content-page-products-old.php:41
+msgid "Fresh vegetables from Thailand are available on Tuesday"
+msgstr "ผักสดและสินค้าจากประเทศไทยมาทุกวันอังคาร"
+
+#: dist/loop-templates/content-page-products-old.php:42
+#: loop-templates/content-page-products-old.php:42
+msgid "Other new products are available on Wednesday"
+msgstr "สินค้าแช่แข็งและประเภทอื่นๆมาทุกวันพุธ"
+
 #: dist/loop-templates/content-page-products.php:8
-msgid "Färska grönsaker kommer på tisdag"
-msgstr ""
+#: loop-templates/content-page-products.php:8
+msgid "Fresh vegetables from Thailand are available on Tuesday."
+msgstr "ผักสดและสินค้าจากประเทศไทยมาทุกวันอังคาร."
 
-#: dist/loop-templates/content-page-products-old.php:9
 #: dist/loop-templates/content-page-products.php:9
-msgid "Fresh frozen products and other every Wednesday."
-msgstr "อาหารแช่แข็งและสินค้าอื่นๆมาทุกวันพุธ."
+#: loop-templates/content-page-products.php:9
+msgid "Other new products are available on Wednesday."
+msgstr "สินค้าแช่แข็งและประเภทอื่นๆมาทุกวันพุธ."
 
-#: dist/loop-templates/content-page-products.php:13
-msgid "Nudlar"
-msgstr ""
+#: dist/loop-templates/content-page-products.php:48
+#: loop-templates/content-page-products.php:48
+msgid "All products"
+msgstr "สินค้าทุกประเภท"
 
-#: dist/loop-templates/content-page-products.php:16
-msgid "Kokosmjölk"
-msgstr ""
+#: dist/loop-templates/content-page-promotion.php:6
+#: loop-templates/content-page-promotion.php:6
+msgid "Promotion"
+msgstr "โปรโมชั่น"
 
-#: dist/loop-templates/content-page-products.php:19
-msgid "Djupfrysning"
-msgstr ""
+#: dist/loop-templates/content-page-recipes.php:3
+#: loop-templates/content-page-recipes.php:3
+msgid "Do you feel like to cook thai food today?"
+msgstr "วันนี้ทำอาหารไทยกันค่ะ?"
 
-#: dist/loop-templates/content-page-products.php:23
-msgid "Currypasta"
-msgstr ""
+#: dist/loop-templates/content-page-recipes.php:4
+#: loop-templates/content-page-recipes.php:4
+msgid "We have some recipes for you"
+msgstr "เรามีเมนูอาหารให้คุณ"
 
-#: dist/loop-templates/content-page-products.php:27
-msgid "Sås"
-msgstr ""
+#: dist/loop-templates/content-single-product.php:65
+#: loop-templates/content-single-product.php:65
+msgid "Description"
+msgstr "เกี่ยวกับสินค้า"
 
-#: dist/loop-templates/content-page-products.php:32
-msgid "Kryddor"
-msgstr ""
-
-#: dist/loop-templates/content-page-products.php:42
-msgid "Alla produkter"
-msgstr ""
+#: dist/loop-templates/content-single-product.php:70
+#: loop-templates/content-single-product.php:70
+msgid "Category"
+msgstr "หมวดหมู่สินค้า"
 
 #: dist/search.php:38 dist/search.php:73 search.php:38 search.php:73
 #, php-format
 msgid "Sökresultat för: %s"
-msgstr ""
+msgstr "ผลการค้นหาสำหรับ: %s"
 
 #: dist/searchform.php:13 dist/searchform.php:19
 #: dist/woocommerce/product-searchform.php:30 searchform.php:13
@@ -544,20 +564,37 @@ msgstr ""
 msgid "Search"
 msgstr "ค้นหา"
 
-#: dist/searchform.php:16
-msgid "Sök produkter eller recepter &hellip;"
-msgstr ""
+#: dist/searchform.php:16 searchform.php:16
+msgid "Search products or menu &hellip;"
+msgstr "ค้นหาสินค้าหรือเมนู &hellip;"
 
 #: dist/sidebar-templates/sidebar-hero.php:28
 #: dist/woocommerce/myaccount/orders.php:89
 #: sidebar-templates/sidebar-hero.php:28 woocommerce/myaccount/orders.php:89
 msgid "Previous"
-msgstr ""
+msgstr "ก่อน"
 
 #: dist/sidebar-templates/sidebar-hero.php:36
 #: dist/woocommerce/myaccount/orders.php:93
 #: sidebar-templates/sidebar-hero.php:36 woocommerce/myaccount/orders.php:93
 msgid "Next"
+msgstr "ถัดไป"
+
+#: dist/sidebar-templates/sidebar-new.php:10
+#: sidebar-templates/sidebar-new.php:10
+msgid "Våra nya produkter"
+msgstr "สินค้า"
+
+#: dist/sidebar-templates/sidebar-new.php:43
+#: dist/sidebar-templates/sidebar-popular.php:42
+#: sidebar-templates/sidebar-new.php:43
+#: sidebar-templates/sidebar-popular.php:42
+msgid "Produktbild saknas"
+msgstr ""
+
+#: dist/sidebar-templates/sidebar-popular.php:10
+#: sidebar-templates/sidebar-popular.php:10
+msgid "Våra populära produkter"
 msgstr ""
 
 #: dist/sidebar-templates/sidebar-related.php:8
@@ -941,120 +978,12 @@ msgstr ""
 #: dist/woocommerce/product-searchform.php:26
 #: woocommerce/product-searchform.php:26
 msgid "Search for:"
-msgstr "ค้นหาสำหรับ:"
+msgstr ""
 
 #: dist/woocommerce/product-searchform.php:27
 #: woocommerce/product-searchform.php:27
 msgid "Search products&hellip;"
-msgstr "ค้นหาสินค้า&hellip;"
-
-#: front-page.php:28
-msgid "Welcome to Thai market in Eslöv"
-msgstr "ยินดีต้อนรับ ร้านไทยมาร์เก็ตในเมืองเอสเหลิฟ สวีเดน"
-
-#: front-page.php:30
-msgid "What are you looking for?"
-msgstr "ต้องการค้นหาอะไร?"
-
-#: loop-templates/content-archive-products.php:20
-#: loop-templates/content-page-new.php:33
-#: loop-templates/content-page-popular.php:36
-#: loop-templates/content-single-product.php:20
-msgid "No image"
-msgstr "ไม่มีภาพสินค้า"
-
-#: loop-templates/content-none.php:35
-msgid "Vi hittade tyvärr inga produkter som matchade din sökning"
-msgstr "ขออภัยเราไม่พบผลิตภัณฑ์ใด ๆ ที่ตรงกับการค้นหาของคุณ"
-
-#: loop-templates/content-none.php:37
-msgid ""
-"Kontrollera att alla ord är rättstavade\n"
-"Använd en stjärna (*) för att utöka din sökning, till exempel i slutet på "
-"ditt sökord"
 msgstr ""
-
-#: loop-templates/content-none.php:45
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help"
-msgstr "ไม่พบข้อมูลที่ค้นหา จะลองใช้การเครื่องมือการค้นหา"
-
-#: loop-templates/content-page-about.php:29
-msgid "Read more"
-msgstr "อ่านเพิ่มเติม"
-
-#: loop-templates/content-page-about.php:36
-#: loop-templates/content-page-cooking.php:43
-#: loop-templates/content-page-location.php:31
-#: loop-templates/content-page-new.php:47
-#: loop-templates/content-page-popular.php:50
-#: loop-templates/content-page-promotion.php:30
-#: sidebar-templates/sidebar-new.php:57
-#: sidebar-templates/sidebar-popular.php:55
-msgid "Sorry, no posts matched your criteria"
-msgstr "ขออภัยไม่มีโพสที่ตรงกับเกณฑ์การค้นหาของคุณ"
-
-#: loop-templates/content-page-allergy.php:5
-msgid "Looking for gluten-free products?"
-msgstr "แพ้แป้งสาลี?"
-
-#: loop-templates/content-page-allergy.php:20
-msgid "We have gluten-free products"
-msgstr "ร้านเรามีผลิตภัณฑ์ที่ไม่มีแป้งสาลีผสม"
-
-#: loop-templates/content-page-new.php:2
-msgid "New products"
-msgstr "สินค้าใหม่"
-
-#: loop-templates/content-page-popular.php:3
-msgid "Most buy products"
-msgstr "สินค้ายอดนิยม"
-
-#: loop-templates/content-page-products-old.php:4
-#: loop-templates/content-page-products.php:4
-msgid "Products"
-msgstr "สินค้าของเรา"
-
-#: loop-templates/content-page-products-old.php:41
-msgid "Fresh vegetables from Thailand are available on Tuesday"
-msgstr "ผักสดและสินค้าจากประเทศไทยมาทุกวันอังคาร"
-
-#: loop-templates/content-page-products-old.php:42
-msgid "Other new products are available on Wednesday"
-msgstr "สินค้าแช่แข็งและประเภทอื่นๆมาทุกวันพุธ"
-
-#: loop-templates/content-page-products.php:8
-msgid "Fresh vegetables from Thailand are available on Tuesday."
-msgstr "ผักสดและสินค้าจากประเทศไทยมาทุกวันอังคาร."
-
-#: loop-templates/content-page-products.php:9
-msgid "Other new products are available on Wednesday."
-msgstr "สินค้าแช่แข็งและประเภทอื่นๆมาทุกวันพุธ."
-
-#: loop-templates/content-page-products.php:48
-msgid "All products"
-msgstr "สินค้าทุกประเภท"
-
-#: loop-templates/content-page-promotion.php:6
-msgid "Promotion"
-msgstr "โปรโมชั่น"
-
-#: loop-templates/content-page-recipes.php:3
-msgid "Do you feel like to cook thai food today?"
-msgstr "วันนี้ทำอาหารไทยกันค่ะ?"
-
-#: loop-templates/content-page-recipes.php:4
-msgid "We have some recipes for you"
-msgstr "เรามีเมนูอาหารให้คุณ"
-
-#: loop-templates/content-single-product.php:65
-msgid "Description"
-msgstr "เกี่ยวกับสินค้า"
-
-#: loop-templates/content-single-product.php:70
-msgid "Category"
-msgstr "หมวดหมู่สินค้า"
 
 #: node_modules/gulp/node_modules/yargs-parser/index.js:301
 #: node_modules/sass-graph/node_modules/yargs-parser/index.js:301
@@ -1224,6 +1153,19 @@ msgstr ""
 msgid "Did you mean %s?"
 msgstr "คุณหมายถึง %s?"
 
+#: node_modules/undescores-for-npm/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ไม่พบหน้าที่ท่านต้องการ."
+
+#: node_modules/undescores-for-npm/404.php:33
+msgid "Most Used Categories"
+msgstr "หมวดหมู่ที่ถูกใช้มากที่สุด"
+
+#: node_modules/undescores-for-npm/404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
 #: node_modules/undescores-for-npm/comments.php:31
 #, php-format
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -1258,17 +1200,17 @@ msgstr ""
 #: node_modules/undescores-for-npm/inc/template-tags.php:28
 #, php-format
 msgid "Posted on %s"
-msgstr ""
+msgstr "เขียนเมื่อวันที่  %s"
 
 #: node_modules/undescores-for-npm/inc/template-tags.php:33
 #, php-format
 msgid "by %s"
-msgstr ""
+msgstr "โดย %s"
 
 #: node_modules/undescores-for-npm/inc/template-tags.php:52
 #, php-format
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "เขียนเมื่อวันที่ %1$s"
 
 #: node_modules/undescores-for-npm/inc/template-tags.php:58
 #, php-format
@@ -1283,24 +1225,21 @@ msgstr ""
 #: node_modules/undescores-for-npm/search.php:19
 #, php-format
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "ผลการค้นหาสำหรับ: %s"
 
 #: node_modules/undescores-for-npm/template-parts/content-none.php:25
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
-msgstr ""
+msgstr "ขออภัยไม่มีอะไรตรงกับข้อความค้นหาของคุณ โปรดลองอีกครั้งด้วยคำหลักที่แตกต่างกัน."
+
+#: node_modules/undescores-for-npm/template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "ไม่พบข้อมูลที่ค้นหา จะลองใช้การเครื่องมือการค้นหา."
 
 #: node_modules/undescores-for-npm/template-parts/content.php:33
 #, php-format
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#: searchform.php:16
-msgid "Search products or menu &hellip;"
-msgstr "ค้นหาสินค้าหรือเมนู &hellip;"
-
-#: sidebar-templates/sidebar-new.php:43
-#: sidebar-templates/sidebar-popular.php:42
-msgid "Produktbild saknas"
-msgstr ""
+msgstr "อ่านเพิ่มเติม %s <span class=“meta-nav”>&rarr;</span>"

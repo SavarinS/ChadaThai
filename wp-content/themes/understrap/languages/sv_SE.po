@@ -1,22 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2019-09-10 12:05+0200\n"
-"PO-Revision-Date: 2019-09-10 12:21+0200\n"
+"POT-Creation-Date: 2019-10-07 15:24+0200\n"
+"PO-Revision-Date: 2019-10-07 15:29+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: sv\n"
+"Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _e;esc_html_e;esc_html__;esc_attr_e;__;_n;_x\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_html_;"
+"esc_attr_x;esc_html_e;esc_html_x\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:30 dist/404.php:30 node_modules/undescores-for-npm/404.php:17
-msgid "Oops! That page can&rsquo;t be found."
+#: 404.php:30 dist/404.php:30
+msgid "Oops! That page can&rsquo;t be found"
 msgstr "Oops! Sidan verkar inte finnas."
 
 #: 404.php:36 dist/404.php:36 node_modules/undescores-for-npm/404.php:21
@@ -26,11 +27,6 @@ msgid ""
 msgstr ""
 "Här verkar det inte finnas något. Du kan prova någon an länkarna nedan eller "
 "söka efter det?"
-
-#: author.php:38 category-old.php:38 dist/author.php:38
-#: dist/category-old.php:38
-msgid "About:"
-msgstr "Om:"
 
 #: author.php:47 category-old.php:47 dist/author.php:47
 #: dist/category-old.php:47 dist/inc/custom-comments.php:37
@@ -53,7 +49,7 @@ msgstr ""
 msgid "in"
 msgstr ""
 
-#: category.php:18
+#: category.php:18 dist/category.php:18
 msgid "Do you want to cook thai food today?"
 msgstr "Vill du laga thaimat idag?"
 
@@ -70,46 +66,42 @@ msgstr "Vill du laga thaimat idag?"
 msgid "Edit"
 msgstr "Ändra"
 
+#: comments.php:37 dist/comments.php:37
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:44 dist/comments.php:44
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
 #: comments.php:62 comments.php:97 dist/comments.php:62 dist/comments.php:97
 #: node_modules/undescores-for-npm/comments.php:40
 #: node_modules/undescores-for-npm/comments.php:61
 msgid "Comment navigation"
-msgstr "Kommentars navigering"
+msgstr ""
 
 #: comments.php:66 comments.php:101 dist/comments.php:66 dist/comments.php:101
 msgid "&larr; Older Comments"
-msgstr "&larr; Äldre kommentarer"
+msgstr ""
 
 #: comments.php:72 comments.php:107 dist/comments.php:72 dist/comments.php:107
 msgid "Newer Comments &rarr;"
-msgstr "Nyare kommentarer &rarr;"
+msgstr ""
 
 #: comments.php:122 dist/comments.php:122
 #: node_modules/undescores-for-npm/comments.php:78
 msgid "Comments are closed."
-msgstr "Kommentarsfältet är avstängt."
-
-#: dist/404.php:46 node_modules/undescores-for-npm/404.php:33
-msgid "Most Used Categories"
-msgstr "Mest använda kategorier"
-
-#: dist/404.php:69 node_modules/undescores-for-npm/404.php:51
-#, php-format
-msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
-#: dist/category.php:18 dist/global-templates/hero-inspiration.php:3
-#: global-templates/hero-inspiration.php:3
-msgid "Vill du laga thaimat idag?"
-msgstr ""
+#: dist/front-page.php:28 front-page.php:28
+msgid "Welcome to Thai market in Eslöv"
+msgstr "Välkommen till Thai market i Eslöv"
 
-#: dist/front-page.php:27
-msgid "Välkommen till Thai market i Eslöv"
-msgstr ""
-
-#: dist/front-page.php:30
-msgid "Vad letar du efter?"
-msgstr ""
+#: dist/front-page.php:30 front-page.php:30
+msgid "What are you looking for?"
+msgstr "Vad letar du efter?"
 
 #: dist/functions.php:59 dist/functions.php:66 functions.php:59
 #: functions.php:66
@@ -128,7 +120,7 @@ msgstr ""
 msgid "Product archives"
 msgstr ""
 
-#: dist/functions.php:101 dist/functions.php:102 dist/functions.php:106
+#: dist/functions.php:102 dist/functions.php:103 dist/functions.php:107
 #: functions.php:102 functions.php:103 functions.php:107
 msgid "Produkter Kategori"
 msgstr ""
@@ -141,10 +133,15 @@ msgstr ""
 msgid "Sök produkter eller recepter"
 msgstr ""
 
+#: dist/global-templates/hero-inspiration.php:3
+#: global-templates/hero-inspiration.php:3
+msgid "Vill du laga thaimat idag?"
+msgstr ""
+
 #: dist/header.php:33 header.php:33
 #: node_modules/undescores-for-npm/header.php:24
 msgid "Skip to content"
-msgstr "Hoppa till innehållet"
+msgstr ""
 
 #: dist/header.php:66 header.php:66
 msgid "Toggle navigation"
@@ -157,11 +154,11 @@ msgstr ""
 
 #: dist/inc/custom-comments.php:31 inc/custom-comments.php:31
 msgid "Name"
-msgstr "Namn"
+msgstr ""
 
 #: dist/inc/custom-comments.php:34 inc/custom-comments.php:34
 msgid "Email"
-msgstr "E-post"
+msgstr ""
 
 #: dist/inc/custom-comments.php:41 inc/custom-comments.php:41
 msgid ""
@@ -242,25 +239,8 @@ msgstr ""
 msgid "http://wordpress.org/"
 msgstr ""
 
-#: dist/inc/hooks.php:34 inc/hooks.php:34
-#: node_modules/undescores-for-npm/footer.php:18
-#, php-format
-msgid "Proudly powered by %s"
-msgstr ""
-
-#: dist/inc/hooks.php:39 inc/hooks.php:39
-#: node_modules/undescores-for-npm/footer.php:20
-#, php-format
-msgid "Theme: %1$s by %2$s."
-msgstr ""
-
 #: dist/inc/hooks.php:41 inc/hooks.php:41
 msgid "http://understrap.com"
-msgstr ""
-
-#: dist/inc/hooks.php:45 inc/hooks.php:45
-#, php-format
-msgid "Version: %1$s"
 msgstr ""
 
 #: dist/inc/pagination.php:24 inc/pagination.php:24
@@ -282,42 +262,18 @@ msgstr ""
 
 #: dist/inc/setup.php:134 inc/setup.php:134
 msgid "Read More..."
-msgstr "Läs mer"
+msgstr "Läs mer…"
 
-#: dist/inc/template-tags.php:57 dist/inc/template-tags.php:63
-#: inc/template-tags.php:57 inc/template-tags.php:63
-#: node_modules/undescores-for-npm/inc/template-tags.php:50
-#: node_modules/undescores-for-npm/inc/template-tags.php:56
-msgid ", "
+#: dist/inc/template-tags.php:31 inc/template-tags.php:31
+msgid "Posted on"
 msgstr ""
 
-#: dist/inc/template-tags.php:60 inc/template-tags.php:60
-#, php-format
-msgid "Posted in %s"
+#: dist/inc/template-tags.php:39 inc/template-tags.php:39
+msgid "by"
 msgstr ""
 
-#: dist/inc/template-tags.php:66 inc/template-tags.php:66
-#, php-format
-msgid "Tagged %s"
-msgstr ""
-
-#: dist/inc/template-tags.php:71 inc/template-tags.php:71
-msgid "Leave a comment"
-msgstr ""
-
-#: dist/inc/template-tags.php:71 inc/template-tags.php:71
-msgid "1 Comment"
-msgstr ""
-
-#: dist/inc/template-tags.php:71 inc/template-tags.php:71
-msgid "% Comments"
-msgstr ""
-
-#: dist/inc/template-tags.php:77 inc/template-tags.php:77
-#: node_modules/undescores-for-npm/inc/template-tags.php:72
-#: node_modules/undescores-for-npm/template-parts/content-page.php:34
-#, php-format
-msgid "Edit %s"
+#: dist/inc/template-tags.php:39 inc/template-tags.php:39
+msgid "Posted by"
 msgstr ""
 
 #: dist/inc/widgets.php:100 inc/widgets.php:100
@@ -368,14 +324,24 @@ msgstr ""
 msgid "Full sized footer widget with dynamic grid"
 msgstr ""
 
-#: dist/loop-templates/content-archive-products.php:39
+#: dist/loop-templates/content-archive-products.php:20
+#: dist/loop-templates/content-page-new.php:33
+#: dist/loop-templates/content-page-popular.php:36
+#: dist/loop-templates/content-single-product.php:20
+#: loop-templates/content-archive-products.php:20
+#: loop-templates/content-page-new.php:33
+#: loop-templates/content-page-popular.php:36
+#: loop-templates/content-single-product.php:20
+msgid "No image"
+msgstr ""
+
 #: dist/loop-templates/content-archive.php:47
 #: dist/loop-templates/content-front-page.php:68
 #: dist/loop-templates/content-page-about-us.php:31
 #: dist/loop-templates/content-page-contact.php:42
 #: dist/loop-templates/content-page.php:29
 #: dist/loop-templates/content-single-post.php:46
-#: dist/loop-templates/content-single-product.php:49
+#: dist/loop-templates/content-single-product.php:88
 #: dist/loop-templates/content-single.php:36 dist/loop-templates/content.php:42
 #: loop-templates/content-archive.php:47
 #: loop-templates/content-front-page.php:68
@@ -384,8 +350,6 @@ msgstr ""
 #: loop-templates/content-page.php:29 loop-templates/content-single-post.php:46
 #: loop-templates/content-single-product.php:88
 #: loop-templates/content-single.php:36 loop-templates/content.php:42
-#: node_modules/undescores-for-npm/template-parts/content-page.php:22
-#: node_modules/undescores-for-npm/template-parts/content.php:38
 msgid "Pages:"
 msgstr ""
 
@@ -399,10 +363,10 @@ msgstr ""
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Ska publicera ditt första inlägg? <a href=“%1$s”>Klicka här</a>."
 
 #: dist/loop-templates/content-none.php:35 loop-templates/content-none.php:35
-msgid "Vi hittade tyvärr inga produkter som matchade din sökning."
+msgid "Vi hittade tyvärr inga produkter som matchade din sökning"
 msgstr ""
 
 #: dist/loop-templates/content-none.php:36 loop-templates/content-none.php:36
@@ -413,28 +377,30 @@ msgstr ""
 msgid ""
 "Kontrollera att alla ord är rättstavade\n"
 "Använd en stjärna (*) för att utöka din sökning, till exempel i slutet på "
-"ditt sökord."
+"ditt sökord"
 msgstr ""
 
 #: dist/loop-templates/content-none.php:45 loop-templates/content-none.php:45
-#: node_modules/undescores-for-npm/template-parts/content-none.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+"searching can help"
 msgstr ""
+"Här verkar det inte finnas något. Du kan prova någon an länkarna nedan eller "
+"söka efter det?"
 
 #: dist/loop-templates/content-page-about.php:29
-msgid "Läs om oss"
-msgstr ""
+#: loop-templates/content-page-about.php:29
+msgid "Read more"
+msgstr "Läs mer…"
 
 #: dist/loop-templates/content-page-about.php:36
 #: dist/loop-templates/content-page-cooking.php:43
 #: dist/loop-templates/content-page-location.php:31
-#: dist/loop-templates/content-page-new.php:39
-#: dist/loop-templates/content-page-popular.php:42
-#: dist/loop-templates/content-page-promotion.php:29
-#: dist/sidebar-templates/sidebar-new.php:48
-#: dist/sidebar-templates/sidebar-popular.php:47
+#: dist/loop-templates/content-page-new.php:47
+#: dist/loop-templates/content-page-popular.php:50
+#: dist/loop-templates/content-page-promotion.php:30
+#: dist/sidebar-templates/sidebar-new.php:57
+#: dist/sidebar-templates/sidebar-popular.php:55
 #: loop-templates/content-page-about.php:36
 #: loop-templates/content-page-cooking.php:43
 #: loop-templates/content-page-location.php:31
@@ -443,16 +409,18 @@ msgstr ""
 #: loop-templates/content-page-promotion.php:30
 #: sidebar-templates/sidebar-new.php:57
 #: sidebar-templates/sidebar-popular.php:55
-msgid "Sorry, no posts matched your criteria."
-msgstr ""
-
-#: dist/loop-templates/content-page-allergy.php:4
-msgid "Är du allergisk mot mjölk, ägg, nötter eller vete?"
-msgstr ""
+msgid "Sorry, no posts matched your criteria"
+msgstr "Tyvärr, Inga inlägg matchade dina kriterier."
 
 #: dist/loop-templates/content-page-allergy.php:5
-msgid "Kolla här"
-msgstr ""
+#: loop-templates/content-page-allergy.php:5
+msgid "Looking for gluten-free products?"
+msgstr "Är du allergisk mot vete?"
+
+#: dist/loop-templates/content-page-allergy.php:20
+#: loop-templates/content-page-allergy.php:20
+msgid "We have gluten-free products"
+msgstr "Vi har glutenfri produkter "
 
 #: dist/loop-templates/content-page-contact.php:28
 #: loop-templates/content-page-contact.php:28
@@ -460,73 +428,81 @@ msgid "Hitta oss"
 msgstr ""
 
 #: dist/loop-templates/content-page-new.php:2
-#: dist/sidebar-templates/sidebar-new.php:10
-#: sidebar-templates/sidebar-new.php:10
-msgid "Våra nya produkter"
-msgstr ""
+#: loop-templates/content-page-new.php:2
+msgid "New products"
+msgstr "Våra nya produkter"
 
 #: dist/loop-templates/content-page-popular.php:3
-#: dist/sidebar-templates/sidebar-popular.php:10
-#: sidebar-templates/sidebar-popular.php:10
-msgid "Våra populära produkter"
-msgstr ""
+#: loop-templates/content-page-popular.php:3
+msgid "Most buy products"
+msgstr "Våra populära produkter"
 
 #: dist/loop-templates/content-page-products-old.php:4
 #: dist/loop-templates/content-page-products.php:4
-msgid "Våra produkter"
-msgstr ""
+#: loop-templates/content-page-products-old.php:4
+#: loop-templates/content-page-products.php:4
+msgid "Products"
+msgstr "Produkter"
 
-#: dist/loop-templates/content-page-products-old.php:8
+#: dist/loop-templates/content-page-products-old.php:41
+#: loop-templates/content-page-products-old.php:41
+msgid "Fresh vegetables from Thailand are available on Tuesday"
+msgstr "Färska grönsaker och sortiment från Thailand kommer på tisdag."
+
+#: dist/loop-templates/content-page-products-old.php:42
+#: loop-templates/content-page-products-old.php:42
+msgid "Other new products are available on Wednesday"
+msgstr "Frysta produkter och andra sortiment kommer på onsdag."
+
 #: dist/loop-templates/content-page-products.php:8
-msgid "Färska grönsaker kommer på tisdag"
-msgstr ""
+#: loop-templates/content-page-products.php:8
+msgid "Fresh vegetables from Thailand are available on Tuesday."
+msgstr "Färska grönsaker och sortiment från Thailand kommer på tisdag."
 
-#: dist/loop-templates/content-page-products-old.php:9
 #: dist/loop-templates/content-page-products.php:9
-msgid "Fresh frozen products and other every Wednesday."
-msgstr "Frysta produkter och andra sortiment kommer på onsdag"
+#: loop-templates/content-page-products.php:9
+msgid "Other new products are available on Wednesday."
+msgstr "Frysta produkter och andra sortiment kommer på onsdag."
 
-#: dist/loop-templates/content-page-products.php:13
-msgid "Nudlar"
-msgstr ""
+#: dist/loop-templates/content-page-products.php:48
+#: loop-templates/content-page-products.php:48
+msgid "All products"
+msgstr "Alla produkter"
 
-#: dist/loop-templates/content-page-products.php:16
-msgid "Kokosmjölk"
-msgstr ""
+#: dist/loop-templates/content-page-promotion.php:6
+#: loop-templates/content-page-promotion.php:6
+msgid "Promotion"
+msgstr "Nyheter"
 
-#: dist/loop-templates/content-page-products.php:19
-msgid "Djupfrysning"
-msgstr ""
+#: dist/loop-templates/content-page-recipes.php:3
+#: loop-templates/content-page-recipes.php:3
+msgid "Do you feel like to cook thai food today?"
+msgstr "Vill du laga thaimat idag?"
 
-#: dist/loop-templates/content-page-products.php:23
-msgid "Currypasta"
-msgstr ""
+#: dist/loop-templates/content-page-recipes.php:4
+#: loop-templates/content-page-recipes.php:4
+msgid "We have some recipes for you"
+msgstr "Det finns recept på hemsidan"
 
-#: dist/loop-templates/content-page-products.php:27
-msgid "Sås"
-msgstr ""
+#: dist/loop-templates/content-single-product.php:65
+#: loop-templates/content-single-product.php:65
+msgid "Description"
+msgstr "Produktbeskrivning"
 
-#: dist/loop-templates/content-page-products.php:32
-msgid "Kryddor"
-msgstr ""
+#: dist/loop-templates/content-single-product.php:70
+#: loop-templates/content-single-product.php:70
+msgid "Category"
+msgstr "Kategori"
 
-#: dist/loop-templates/content-page-products.php:42
-msgid "Alla produkter"
-msgstr ""
-
-#: dist/search.php:38 dist/search.php:73 search.php:38 search.php:73
-#, php-format
-msgid "Sökresultat för: %s"
-msgstr ""
-
-#: dist/searchform.php:13 dist/searchform.php:19 searchform.php:13
-#: searchform.php:19
+#: dist/searchform.php:13 dist/searchform.php:19
+#: dist/woocommerce/product-searchform.php:30 searchform.php:13
+#: searchform.php:19 woocommerce/product-searchform.php:30
 msgid "Search"
-msgstr ""
+msgstr "Sök"
 
 #: dist/searchform.php:16 searchform.php:16
-msgid "Sök produkter eller recepter &hellip;"
-msgstr ""
+msgid "Search products or menu &hellip;"
+msgstr "Sök produkter eller recept &hellip;"
 
 #: dist/sidebar-templates/sidebar-hero.php:28
 #: dist/woocommerce/myaccount/orders.php:89
@@ -538,6 +514,23 @@ msgstr ""
 #: dist/woocommerce/myaccount/orders.php:93
 #: sidebar-templates/sidebar-hero.php:36 woocommerce/myaccount/orders.php:93
 msgid "Next"
+msgstr ""
+
+#: dist/sidebar-templates/sidebar-new.php:10
+#: sidebar-templates/sidebar-new.php:10
+msgid "Våra nya produkter"
+msgstr ""
+
+#: dist/sidebar-templates/sidebar-new.php:43
+#: dist/sidebar-templates/sidebar-popular.php:42
+#: sidebar-templates/sidebar-new.php:43
+#: sidebar-templates/sidebar-popular.php:42
+msgid "Produktbild saknas"
+msgstr ""
+
+#: dist/sidebar-templates/sidebar-popular.php:10
+#: sidebar-templates/sidebar-popular.php:10
+msgid "Våra populära produkter"
 msgstr ""
 
 #: dist/sidebar-templates/sidebar-related.php:8
@@ -553,7 +546,7 @@ msgstr ""
 #: dist/woocommerce/checkout/form-pay.php:27 woocommerce/cart/cart.php:30
 #: woocommerce/cart/cart.php:74 woocommerce/checkout/form-pay.php:27
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #: dist/woocommerce/cart/cart.php:31 dist/woocommerce/cart/cart.php:94
 #: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:94
@@ -575,10 +568,6 @@ msgstr ""
 #: dist/woocommerce/cart/cart.php:55 dist/woocommerce/cart/mini-cart.php:48
 #: woocommerce/cart/cart.php:55 woocommerce/cart/mini-cart.php:48
 msgid "Remove this item"
-msgstr ""
-
-#: dist/woocommerce/cart/cart.php:89 woocommerce/cart/cart.php:89
-msgid "Available on backorder"
 msgstr ""
 
 #: dist/woocommerce/cart/cart.php:136 woocommerce/cart/cart.php:136
@@ -640,7 +629,9 @@ msgid "If you have a coupon code, please apply it below."
 msgstr ""
 
 #: dist/woocommerce/checkout/form-pay.php:28
+#: dist/woocommerce/global/quantity-input.php:41
 #: woocommerce/checkout/form-pay.php:28
+#: woocommerce/global/quantity-input.php:41
 msgid "Qty"
 msgstr ""
 
@@ -655,25 +646,6 @@ msgid ""
 "Sorry, it seems that there are no available payment methods for your "
 "location. Please contact us if you require assistance or wish to make "
 "alternate arrangements."
-msgstr ""
-
-#: dist/woocommerce/checkout/payment.php:33 woocommerce/checkout/payment.php:33
-msgid ""
-"Sorry, it seems that there are no available payment methods for your state. "
-"Please contact us if you require assistance or wish to make alternate "
-"arrangements."
-msgstr ""
-
-#: dist/woocommerce/checkout/payment.php:33 woocommerce/checkout/payment.php:33
-msgid "Please fill in your details above to see available payment methods."
-msgstr ""
-
-#: dist/woocommerce/checkout/payment.php:42 woocommerce/checkout/payment.php:42
-#, php-format
-msgid ""
-"Since your browser does not support JavaScript, or it is disabled, please "
-"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
-"You may be charged more than the amount stated above if you fail to do so."
 msgstr ""
 
 #: dist/woocommerce/checkout/payment.php:44 woocommerce/checkout/payment.php:44
@@ -836,21 +808,9 @@ msgstr ""
 msgid "A password will be sent to your email address."
 msgstr ""
 
-#: dist/woocommerce/myaccount/form-lost-password.php:25
-#: woocommerce/myaccount/form-lost-password.php:25
-msgid ""
-"Lost your password? Please enter your username or email address. You will "
-"receive a link to create a new password via email."
-msgstr ""
-
 #: dist/woocommerce/myaccount/form-lost-password.php:38
 #: woocommerce/myaccount/form-lost-password.php:38
 msgid "Reset password"
-msgstr ""
-
-#: dist/woocommerce/myaccount/form-reset-password.php:25
-#: woocommerce/myaccount/form-reset-password.php:25
-msgid "Enter a new password below."
 msgstr ""
 
 #: dist/woocommerce/myaccount/form-reset-password.php:28
@@ -921,79 +881,10 @@ msgstr ""
 msgid "Search for:"
 msgstr "Sök för:"
 
-#: front-page.php:28
-msgid "Welcome to Thai market in Eslöv"
-msgstr "Välkommen till Thai market i Eslöv"
-
-#: front-page.php:30
-msgid "What are you looking for?"
-msgstr "Vad letar du efter?"
-
-#: loop-templates/content-archive-products.php:20
-#: loop-templates/content-page-new.php:33
-#: loop-templates/content-page-popular.php:36
-#: loop-templates/content-single-product.php:20
-msgid "No image"
-msgstr "Produktbild saknas"
-
-#: loop-templates/content-page-about.php:29
-msgid "Read more"
-msgstr "Läs mer"
-
-#: loop-templates/content-page-allergy.php:5
-msgid "Looking for gluten-free products?"
-msgstr "Är du allergisk mot vete?"
-
-#: loop-templates/content-page-allergy.php:20
-msgid "We have gluten-free products."
-msgstr "Vi har glutenfri produkter."
-
-#: loop-templates/content-page-new.php:2
-msgid "New products"
-msgstr "Våra nya produkter"
-
-#: loop-templates/content-page-popular.php:3
-msgid "Most buy products"
-msgstr "Våra populära produkter"
-
-#: loop-templates/content-page-products-old.php:4
-#: loop-templates/content-page-products.php:4
-msgid "Products"
-msgstr "Våra produkter"
-
-#: loop-templates/content-page-products-old.php:41
-#: loop-templates/content-page-products.php:8
-msgid "Fresh vegetables from Thailand are available on Tuesday."
-msgstr "Färska grönsaker och sortiment från Thailand kommer på tisdag."
-
-#: loop-templates/content-page-products-old.php:42
-#: loop-templates/content-page-products.php:9
-msgid "Other new products are available on Wednesday."
-msgstr "Frysta produkter och andra sortiment kommer på onsdag."
-
-#: loop-templates/content-page-products.php:48
-msgid "All products"
-msgstr "Alla produkter"
-
-#: loop-templates/content-page-promotion.php:6
-msgid "Promotion"
-msgstr "Nyheter"
-
-#: loop-templates/content-page-recipes.php:3
-msgid "Do you feel like to cook thai food today?"
-msgstr "Vill du laga thaimat idag?"
-
-#: loop-templates/content-page-recipes.php:4
-msgid "We have some recipes for you."
-msgstr "Det finns recept på hemsidan."
-
-#: loop-templates/content-single-product.php:65
-msgid "Description"
-msgstr "Produktbeskrivning"
-
-#: loop-templates/content-single-product.php:70
-msgid "Category"
-msgstr "Kategori"
+#: dist/woocommerce/product-searchform.php:27
+#: woocommerce/product-searchform.php:27
+msgid "Search products&hellip;"
+msgstr ""
 
 #: node_modules/gulp/node_modules/yargs-parser/index.js:301
 #: node_modules/sass-graph/node_modules/yargs-parser/index.js:301
@@ -1163,50 +1054,36 @@ msgstr ""
 msgid "Did you mean %s?"
 msgstr ""
 
-#: node_modules/undescores-for-npm/comments.php:43
-#: node_modules/undescores-for-npm/comments.php:64
-msgid "Older Comments"
+#: node_modules/undescores-for-npm/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: node_modules/undescores-for-npm/comments.php:44
-#: node_modules/undescores-for-npm/comments.php:65
-msgid "Newer Comments"
+#: node_modules/undescores-for-npm/404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#: node_modules/undescores-for-npm/comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
 msgstr ""
 
 #: node_modules/undescores-for-npm/footer.php:18
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: node_modules/undescores-for-npm/functions.php:47
-msgid "Primary"
-msgstr ""
-
-#: node_modules/undescores-for-npm/functions.php:90
-msgid "Sidebar"
-msgstr ""
-
-#: node_modules/undescores-for-npm/functions.php:92
-msgid "Add widgets here."
-msgstr ""
-
-#: node_modules/undescores-for-npm/inc/template-tags.php:52
+#: node_modules/undescores-for-npm/inc/template-tags.php:28
 #, php-format
-msgid "Posted in %1$s"
+msgid "Posted on %s"
 msgstr ""
 
-#: node_modules/undescores-for-npm/inc/template-tags.php:58
+#: node_modules/undescores-for-npm/inc/template-tags.php:33
 #, php-format
-msgid "Tagged %1$s"
+msgid "by %s"
 msgstr ""
 
 #: node_modules/undescores-for-npm/inc/template-tags.php:65
 #, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
-
-#: node_modules/undescores-for-npm/search.php:19
-#, php-format
-msgid "Search Results for: %s"
 msgstr ""
 
 #: node_modules/undescores-for-npm/template-parts/content-none.php:25
@@ -1216,12 +1093,15 @@ msgid ""
 msgstr ""
 "Tyvärr fick din sökning inga träffar. Du kan prova igen med nya nyckelord."
 
+#: node_modules/undescores-for-npm/template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Här verkar det inte finnas något. Du kan prova någon an länkarna nedan eller "
+"söka efter det?"
+
 #: node_modules/undescores-for-npm/template-parts/content.php:33
 #, php-format
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#: sidebar-templates/sidebar-new.php:43
-#: sidebar-templates/sidebar-popular.php:42
-msgid "Produktbild saknas"
-msgstr ""
+msgstr "Läs mer %s <span class=“meta-nav”>&rarr;</span>"

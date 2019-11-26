@@ -35,15 +35,15 @@ defined( 'ABSPATH' ) || exit;
 		
 			<div class="section-items">
 				<div class="sections">
-			<!-- show template food allergy -->
-			<?php
-			get_template_part( 'loop-templates/content', 'page-allergy' );
-			?>
+				<!-- show template food allergy -->
+					<?php
+					get_template_part( 'loop-templates/content', 'page-allergy' );
+					?>
 
-			<!-- show template news and promotion -->
-			<?php
-			get_template_part( 'loop-templates/content', 'page-promotion' );
-			?>
+					<!-- show template news and promotion -->
+					<?php
+					get_template_part( 'loop-templates/content', 'page-promotion' );
+					?>
 
 			</div>
 
